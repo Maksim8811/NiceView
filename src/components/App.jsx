@@ -3,7 +3,7 @@ import { SharedLayout } from "./SharedLayout/SharedLayout"
 import {Main} from "./Main/Main"
 import {About} from "./About/About"
 import {Contacts} from "./Contacts/Contacts"
-import {NotFound} from "./NotFound/NotFound"
+
 
 export const App = () => {
   return (
