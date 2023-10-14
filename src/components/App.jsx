@@ -1,16 +1,20 @@
+import { Routes, Route} from "react-router-dom"
+import { SharedLayout } from "./SharedLayout/SharedLayout"
+import {Main} from "./Main/Main"
+import {About} from "./About/About"
+import {Contacts} from "./Contacts/Contacts"
+import {NotFound} from "./NotFound/NotFound"
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+      
+      <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<Main />} />
+        <Route path="about" element={<About />}/>
+        <Route path="contacts" element={<Contacts />} />
+      </Route>
+      <Route path="*" element={<Main/>} />
+    </Routes>
+  )
 };
