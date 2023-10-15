@@ -1,0 +1,31 @@
+/* 
+
+.burger-icon {
+    width: 140px;
+    height: 140px;
+    fill: aqua;
+    
+  }
+  .burger-btm {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+   
+   
+  
+    
+  } */
+
+
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .icon-logo_smile {
+    width: 1.3330078125em;
+  }
