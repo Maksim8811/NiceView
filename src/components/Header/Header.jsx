@@ -1,5 +1,5 @@
 import "./Header.css"
-import sprite from "../images/symboldefs.svg"
+import sprite from "../images/sprite.svg"
 
 export const Header = () => {
 console.log(sprite)
@@ -14,7 +14,7 @@ console.log(sprite)
         </nav> */}
         <button>
         <svg>
-        <use href={sprite + "#icon-home"}></use>
+        <use href={sprite + "#icon-iconheader"}></use>
        </svg>
         </button>
           
