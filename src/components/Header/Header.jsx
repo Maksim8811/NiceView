@@ -12,14 +12,24 @@ console.log(sprite)
             <Link to="/about">Про нас</Link>
             <Link to="/contacts">Контакти</Link>
         </nav> */}
-        <button>
-        <svg>
+        
+        <ul>
+            <li>
+            <svg>
         <use href={sprite + "#icon-iconheader"}></use>
        </svg>
-        </button>
-          
-        <h1>Nice View</h1>
-        <button type="button">UA</button>
+            </li>
+            <li><h1>Nice View</h1></li>
+            <li> <button type="button">UA</button></li>
+            <li>
+                <button>
+                {/* <svg>
+                <use href={sprite + "#icon-burger"}></use>
+                </svg> */}
+                    </button></li>
+        </ul>
+       
+        
         
         </header>
         
