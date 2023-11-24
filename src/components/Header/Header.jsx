@@ -13,19 +13,21 @@ console.log(sprite)
             <Link to="/contacts">Контакти</Link>
         </nav> */}
         
-        <ul>
-            <li>
-            <svg>
+        <ul className="header_list">
+            <li className="header_list_li">
+            <svg className="icon-iconheader">
         <use href={sprite + "#icon-iconheader"}></use>
        </svg>
             </li>
-            <li><h1>Nice View</h1></li>
-            <li> <button type="button">UA</button></li>
-            <li>
-                <button>
-                {/* <svg>
+            <li className="header_list_li">
+                <h1 className="header_list_title">Nice View</h1></li>
+            <li className="header_list_li">
+                <button className="header_list_leng" type="button">UA</button></li>
+            <li className="header_list_li">
+                <button button type="button">
+                <svg>
                 <use href={sprite + "#icon-burger"}></use>
-                </svg> */}
+                </svg>
                     </button></li>
         </ul>
        
