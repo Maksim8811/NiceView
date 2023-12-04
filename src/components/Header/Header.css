@@ -10,8 +10,11 @@
 
 .header {
     margin: 0;
-    border-bottom: 1px dashed red;
-    background-color: black;
+    background-image: linear-gradient(
+        to top left,
+        rgba(198, 190, 187, 0.81),
+        rgba(118, 106, 99, 1)
+      );
     height: 120px;
 }
 
@@ -41,6 +44,16 @@
     size: 28px;
     line-height: 36px;
     color: #EEE8DE;
+}
+.header_list_burger {
+    border: none;
+    background-color: inherit;
+}
+
+.icon-burger {
+    color: #324052;
+    width: 42px;
+    height: 42px;
 }
 
 .icon-iconheader {
