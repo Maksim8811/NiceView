@@ -19,9 +19,9 @@ console.log(sprite)
         <use href={sprite + "#icon-iconheader"}></use>
        </svg>
             </li>
-            <li className="header_list_li">
+            <li className="header_list_li header_list_li_title">
                 <h1 className="header_list_title">Nice View</h1></li>
-            <li className="header_list_li">
+            <li className="header_list_li header_list_li_button">
                 <button className="header_list_leng" type="button">UA</button></li>
             <li className="header_list_li">
                 <button className="header_list_burger" button type="button">
