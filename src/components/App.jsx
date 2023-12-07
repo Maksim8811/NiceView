@@ -1,8 +1,8 @@
-import { Routes, Route, Link} from "react-router-dom"
+// import { Routes, Route, Link} from "react-router-dom"
 // import { SharedLayout } from "./SharedLayout/SharedLayout"
 import {Header} from "./Header/Header"
-import {About} from "./About/About"
-import {Contacts} from "./Contacts/Contacts"
+// import {About} from "./About/About"
+// import {Contacts} from "./Contacts/Contacts"
 import "../components/App.css"
 
 

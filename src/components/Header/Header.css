@@ -11,7 +11,7 @@
 .header {
     width: 100%;
     margin: 0;
-    padding: 54px 16px 24px 16px;
+    padding: 54px 0px 24px 0px;
     background-image: linear-gradient(
         to top left,
         rgba(198, 190, 187, 0.81),
@@ -19,10 +19,16 @@
       );
     }
 
+.icon-iconheader {
+    width: 44px;
+    height: 42px;
+    }    
+
 .header_list {
-    display: flex;
-    margin: 0;
+    margin: 0px 16px 0px 16px;
     padding: 0;
+    display: flex;
+    
 
 }
 
@@ -46,13 +52,16 @@
 }
 
 .header_list_li_button{
-    /* margin-right: 20; */
+    margin-right: 20px;
 }
 
 .header_list_leng {
-    padding: 6px 20px 6px 0px;
+    padding:  0px;
+    margin: 0;
+    width: 36px;
+    height: 30px;
     letter-spacing: -0.04em;
-    border: none;
+    /* border: none; */
     background-color: inherit;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
@@ -66,6 +75,7 @@
 .header_list_burger {
     border: none;
     background-color: inherit;
+    
 }
 
 .icon-burger {
@@ -74,8 +84,17 @@
     height: 42px;
 }
 
-.icon-iconheader {
-    width: 44px;
-    height: 42px;
+.header_list_li_burger {
+
 }
+
+
+/*TABLET style*/
+
+@media screen and (min-width: 900px) {
+    body {
+      background-color: orange;
+    }
+  }
+
   
