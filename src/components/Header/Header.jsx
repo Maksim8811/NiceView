@@ -7,29 +7,19 @@ console.log(sprite)
         
         <header className="header">
      
-        {/* <nav>
-            <Link className="link" to="/">Головна</Link>
-            <Link to="/about">Про нас</Link>
-            <Link to="/contacts">Контакти</Link>
-        </nav> */}
-        
-        <ul className="header_list">
-            <li className="header_list_li">
-            <svg className="icon-iconheader">
+        <div className="header_list">
+        <svg className="icon-iconheader">
         <use href={sprite + "#icon-iconheader"}></use>
        </svg>
-            </li>
-            <li className="header_list_li header_list_li_title">
-                <h1 className="header_list_title">Nice View</h1></li>
-            <li className="header_list_li header_list_li_button">
-                <button className="header_list_leng" type="button">UA</button></li>
-            <li className="header_list_li header_list_li_burger">
-                <button className="header_list_burger" button type="button">
+       <h1 className="header_list_title">Nice View</h1>
+       <button className="header_list_leng" type="button">UA</button>
+       <button className="header_list_burger" button type="button">
                 <svg className="icon-burger">
                 <use href={sprite + "#icon-burger"}></use>
                 </svg>
-                    </button></li>
-        </ul>
+                    </button>
+        </div>
+       
        
         
         
