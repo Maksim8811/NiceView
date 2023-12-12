@@ -8,6 +8,10 @@
     src: url(../../founds/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
 }
 
+.header_nav {
+    display: none;
+}
+
 .header {
     margin: 0;
     padding: 54px 0px 24px 0px;
@@ -73,6 +77,7 @@
 }
 
 
+
 /*TABLET style*/
 
 @media screen and (min-width: 768px) {
@@ -82,7 +87,7 @@
 
     .header {
         margin: 0;
-        padding: 14px 60px 14px 60px;
+        padding: 14px 0px 14px 0px;
         }
 
     .icon-iconheader {
@@ -91,10 +96,10 @@
         }  
  
     .header_list {
-        margin: 0px 16px 0px 16px;
+        margin: 0px 60px 0px 60px;
         height: 60px;
-        padding: 0;
-        justify-content: start;
+        /* justify-content: start; */
+       
     }
 
     .header_list_title {
@@ -110,10 +115,9 @@
     
     .header_list_leng {
         padding:  0px;
-        margin-left: 316px;
-        margin-top: 6px;
+        margin: 10px 0px 10px 328px;
         width: 36px;
-        height: 30px;
+        height: 40px;
         letter-spacing: -0.04em;
         border: none;
         background-color: inherit;
@@ -125,7 +129,81 @@
        
         cursor: pointer;
      
-    }    
+    }
+    .header_list_burger {
+        margin-left: 40px;
+        
+    }        
   }
+
+/*Desktop styled*/
+
+@media screen and (min-width: 1440px) {
+ body {
+    background-color: aqua;
+ }
+
+ /* .header_nav {
+    display: contents;
+} */
+
+.header {
+    margin: 0;
+    padding: 19px 60px 19px 60px;
+}
+
+.icon-iconheader {
+    width: 44px;
+    height: 42px;
+    }    
+
+.header_list {
+    margin: 0px 16px 0px 16px;
+    height: 42px;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.header_list_title {
+    margin: 1px 0px 1px 16px;
+    letter-spacing: -0.08em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1C4C6B;
+}
+
+.header_list_leng {
+    padding:  0px;
+    margin-left: 66px;
+    margin-top: 6px;
+    width: 36px;
+    height: 30px;
+    letter-spacing: -0.04em;
+    border: none;
+    background-color: inherit;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #EEE8DE;
+   
+    cursor: pointer;
+ 
+}
+.header_list_burger {
+    display: none;
+    
+}
+
+.icon-burger {
+    color: #324052;
+    width: 42px;
+    height: 42px;
+}
+
+}
 
   
