@@ -8,20 +8,21 @@ export const Header = () => {
         
         <header className="header">
         <div className="header_nav">
-        <nav>
-        <Link to="/" end>Головна</Link>
+        {/* <nav>
+        <Link to="/">Головна</Link>
       </nav>
       
-      <Routes>
+    <Routes>
       <Route path="/" element={<Main/>}/>
-      <Route path="*" element={<Header/>} />
-    </Routes>
+    </Routes> */}
+
         </div>
         <div className="header_list">
         <svg className="icon-iconheader">
         <use href={sprite + "#icon-iconheader"}></use>
        </svg>
        <h1 className="header_list_title">Nice View</h1>
+       <h2 className="header_list_adress">м.Київ, просп. Вознесенський 148</h2>
        <button className="header_list_leng" type="button">UA</button>
        <button className="header_list_burger" button type="button">
                 <svg className="icon-burger">
