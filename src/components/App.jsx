@@ -2,7 +2,7 @@
 import { SharedLayout } from "./SharedLayout/SharedLayout"
 import {Header} from "./Header/Header"
 
-import {Contacts} from "./Contacts/Contacts"
+import {Contacts} from "../pages/Contacts/Contacts"
 import "../components/App.css"
 
 

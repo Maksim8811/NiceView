@@ -1,7 +1,7 @@
 export const Main = () => {
     return (
       <>
-      <h3>Welcome</h3>
+      {/* <h3>Welcome</h3> */}
       </>
       
      
