@@ -19,8 +19,8 @@ export const Header = () => {
        <h2 className="header_list_adress">м.Київ, просп. Вознесенський 148</h2>
        </div>
         <nav className="header_nav">
-        <Link className="header_link" to="/">Головна</Link>
-        <Link className="header_link" to="/about">Про нас</Link>
+        <Link className="header_link line_main" to="/">Головна</Link>
+        <Link className="header_link line_about" to="/about">Про нас</Link>
         <Link className="header_link" to="/contacts">Контакти</Link>
       </nav>
       
