@@ -211,6 +211,12 @@
         margin-right: 80px;
     }
 
+    .active {
+        color: #254255;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
     .line_main::after {
     display: block;
     /* position: absolute; */

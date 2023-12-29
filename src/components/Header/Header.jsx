@@ -1,6 +1,6 @@
 import "./Header.css"
 import sprite from "../images/sprite.svg"
-import { Routes, Route, Link} from "react-router-dom"
+import { Routes, Route, Link, NavLink} from "react-router-dom"
 import {Main} from "../../pages/Main/Main"
 import {About} from "../../pages/About/About"
 import {Contacts} from "../../pages/Contacts/Contacts"
@@ -19,14 +19,14 @@ export const Header = () => {
        <h2 className="header_list_adress">м.Київ, просп. Вознесенський 148</h2>
        </div>
         <nav className="header_nav">
-        <Link className="header_link line_main" to="/">Головна</Link>
-        <Link className="header_link line_about" to="/about">Про нас</Link>
-        <Link className="header_link" to="/contacts">Контакти</Link>
+        <NavLink className="header_link" to="/">Головна</NavLink>
+        <NavLink className="header_link" to="/about">Про нас</NavLink>
+        <NavLink className="header_link" to="/contacts">Контакти</NavLink>
       </nav>
       
       
     <Routes>
-      <Route path="/" element={<Main/>}/>
+      <Route exact path="/" element={<Main/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contacts" element={<Contacts/>}/>
     </Routes>
