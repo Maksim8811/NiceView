@@ -1,8 +1,16 @@
+import "./Main.css"
+
 export const Main = () => {
     return (
-      <>
-      {/* <h3>Welcome</h3> */}
-      </>
+      
+      <section  className="main">
+        <div>
+         
+        </div>
+      
+      </section>
+        
+      
       
      
     )
