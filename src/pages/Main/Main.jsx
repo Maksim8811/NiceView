@@ -5,7 +5,7 @@ export const Main = () => {
       
       <section  className="main">
         <div>
-         
+         {/* <p>Main</p> */}
         </div>
       
       </section>

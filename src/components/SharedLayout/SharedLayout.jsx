@@ -5,6 +5,7 @@ import "./SharedLayout.css"
 
 export const SharedLayout = () => {
     return (
+        <>
         <header className="header">
         
         <div className="header_list">
@@ -21,7 +22,7 @@ export const SharedLayout = () => {
         <NavLink className="header_link" to="/contacts">Контакти</NavLink>
       </nav>
 
-      <Outlet />
+      
 
         
        <button className="header_list_leng" type="button">UA</button>
@@ -29,8 +30,12 @@ export const SharedLayout = () => {
                 <svg className="icon-burger">
                 <use href={sprite + "#icon-burger"}></use>
                 </svg>
-                    </button>    
+                    </button> 
+                     
         </div>
+         
        </header>
+       <Outlet /> 
+       </>
     )
 }
