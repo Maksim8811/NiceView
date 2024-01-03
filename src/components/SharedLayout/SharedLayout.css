@@ -14,7 +14,6 @@
 }
 
 .header {
-    z-index: 100;
     min-width: 390px;
     margin: 0;
     padding: 54px 0px 24px 0px;
@@ -23,7 +22,7 @@
         rgba(198, 190, 187, 0.81),
         rgba(118, 106, 99, 1)
       );
-      
+      border-bottom: dashed red;
     }
 
 .icon-iconheader {
@@ -32,7 +31,7 @@
     }    
 
 .header_list {
-   
+    
     margin: 0px 16px 0px 16px;
     height: 42px;
     padding: 0;
