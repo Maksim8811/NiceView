@@ -1,8 +1,20 @@
 .main {
-    margin-top: -120px;
-    width: 390px;
-    height: 100vh;
-    
-    background-image: url(../../components/images/main_img/main_x1.jpg);
+    margin: -120px auto;
+    height: 752px;
+    display: block;
+    min-width: 390px;
+    background-image: url(../../components/images/main_img/main.jpg);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main {
+    
+    background-image: url(../../components/images/main_img/main_@2x.jpg);
+  }
+} */
 
