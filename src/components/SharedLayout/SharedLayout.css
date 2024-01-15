@@ -8,19 +8,13 @@
     src: url(../../founds/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
 }
 
-/* img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  } */
-
 .header_nav {
     display: none;
 }
 
 .header {
     filter: opacity(1);
-    min-width: 390px;
+    width: 100%;
     margin: 0;
     padding: 54px 0px 24px 0px;
     background-image: linear-gradient(
@@ -61,7 +55,7 @@
 
 .header_list_leng {
     padding:  0px;
-    margin-left: 66px;
+    margin-left: auto;
     margin-top: 6px;
     width: 36px;
     height: 30px;
