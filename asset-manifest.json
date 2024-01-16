@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/NiceView/static/css/main.e148bfd1.css",
-    "main.js": "/NiceView/static/js/main.adb36266.js",
+    "main.css": "/NiceView/static/css/main.7b6fcdec.css",
+    "main.js": "/NiceView/static/js/main.9e74a87b.js",
+    "static/media/mainDesktop_@2x.jpg": "/NiceView/static/media/mainDesktop_@2x.39deec5e74f58d66bef9.jpg",
     "static/media/mainTablet_@2x.jpg": "/NiceView/static/media/mainTablet_@2x.0fbbcebd6255aca98afc.jpg",
     "static/media/main_@2x.jpg": "/NiceView/static/media/main_@2x.cce305ede85935e81c83.jpg",
+    "static/media/mainDesktop.jpg": "/NiceView/static/media/mainDesktop.097b13c88d778042cad1.jpg",
     "static/media/mainTablet.jpg": "/NiceView/static/media/mainTablet.05f319661f81610aae0a.jpg",
     "static/media/RobotoCondensed-VariableFont_wght.ttf": "/NiceView/static/media/RobotoCondensed-VariableFont_wght.ff29b2791402495b1616.ttf",
     "static/media/main.jpg": "/NiceView/static/media/main.6c59f1b041547f50616b.jpg",
     "static/media/Nunito-VariableFont_wght.ttf": "/NiceView/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
     "static/media/sprite.svg": "/NiceView/static/media/sprite.c375684a6b5a75f53cbab9ce3d3bd93f.svg",
     "index.html": "/NiceView/index.html",
-    "main.e148bfd1.css.map": "/NiceView/static/css/main.e148bfd1.css.map",
-    "main.adb36266.js.map": "/NiceView/static/js/main.adb36266.js.map"
+    "static/media/main_polygon.svg": "/NiceView/static/media/main_polygon.669d486a645d69530dfb.svg",
+    "main.7b6fcdec.css.map": "/NiceView/static/css/main.7b6fcdec.css.map",
+    "main.9e74a87b.js.map": "/NiceView/static/js/main.9e74a87b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e148bfd1.css",
-    "static/js/main.adb36266.js"
+    "static/css/main.7b6fcdec.css",
+    "static/js/main.9e74a87b.js"
   ]
 }
