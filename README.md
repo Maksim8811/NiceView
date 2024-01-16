@@ -15,7 +15,8 @@
   - використання прийому shared layout
   - вирішити проблему додавання background-image до секції main // не вирішено, хедер не просвічує background-image // вирішнно з допомогою .header {filter: opacity(1)}
   - вирішити проблему респонсивного фонового зображення у main mobile tablet // вирішено з доп background-size: cover;
+  - завершити стизізацію main_modal
   
 
 
-Time: 16:00:00
+Time: 17:00:00

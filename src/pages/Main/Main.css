@@ -7,6 +7,15 @@
     background-size: cover;
 }
 
+.main_modal {
+   margin: 0 auto;
+   width: 352px;
+   border-radius: 20px;
+   background-color: rgba(251, 252, 252, 0.8);
+   position: relative;
+   top: 280px;
+}
+
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -38,3 +47,35 @@
 }
   }
 
+
+  @media screen and (min-width: 1440px) {
+    .main {
+    
+      background-color: #f9f9fd;
+      margin: -120px 0px 0px 602px;
+      height: 1078px;
+      background-image: url(../../components/images/main_img/mainDesktop.jpg);
+      background-color: rgb(255, 255, 255);
+      /* background-repeat: no-repeat;
+      background-size: 838px 1078px; */
+  }
+
+  .main_polygon{
+  
+    height: 100%;
+
+    background-image: url(../../components/images/main_polygon.svg);
+    background-repeat: no-repeat;
+  
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main {
+      
+      background-image: url(../../components/images/main_img/mainDesktop_@2x.jpg);
+    }
+  }
+    }
