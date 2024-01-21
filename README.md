@@ -17,7 +17,8 @@
   - вирішити проблему респонсивного фонового зображення у main mobile tablet // вирішено з доп background-size: cover;
   - завершити стизізацію main_modal for mobile
   - завершити стилізацію main_modal for tablet
+  - завершити стилізацію main_modal for desktop
   
 
 
-Time: 18:00:00
+Time: 19:00:00
