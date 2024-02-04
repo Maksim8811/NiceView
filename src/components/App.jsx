@@ -5,6 +5,7 @@ import {About} from "../pages/About/About"
 import {Contacts} from "../pages/Contacts/Contacts"
 
 
+
 export const App = () => {
   return (
 
@@ -15,8 +16,8 @@ export const App = () => {
         <Route path="/about" element={<About/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
       </Route>
-      
-    </Routes>
+  </Routes>
+   
    
    
    

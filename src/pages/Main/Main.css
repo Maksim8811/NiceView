@@ -137,19 +137,7 @@
 
 .main_modal_btn {
   margin: 40px 74px 40px 74px;
-  /* padding: 16px 102px 16px 102px; */
-  /* letter-spacing: -0.04em; */
-  /* font-family: "Roboto Condensed", sans-serif; */
-  /* font-weight: 400;
-  font-size: 24px; */
   min-width: 400px;
-  /* background: rgba(201, 228, 234, 1);
-  border: 2px solid rgba(43, 158, 231, 1); */
-  /* border-radius: 20px;
-  text-align: center;
-  cursor: pointer;
-  align-self: center;
-  color: rgba(43, 158, 231, 1); */
 }
 
 .main_gradient {
@@ -187,18 +175,11 @@
     
     
   }
-/* 
-  .main_polygon{
-    contain: "";
-    height: 100%;
-    background-image: url(../../components/images/main_polygon.svg);
-    background-repeat: no-repeat;
-   
-  } */
+
 
   .main_container {
     padding: 0px;
-    min-width: 602px;
+    width: 602px;
     margin: 0 auto;
     }
 
@@ -242,7 +223,7 @@
 
   .main_gradient {
     filter: opacity(1);
-    width: 140px;
+    width: 141px;
     margin-top: 120px;
     margin-left: 0px;
     padding: 0;
