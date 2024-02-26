@@ -1,8 +1,14 @@
+import "./Specific.css"
+import sprite from "../images/sprite.svg"
+
 export const Specific = () => {
     return (
         <>
-        <section>
+        <section className="specific">
             <h3>Особливості планування</h3>
+            <svg className="icon-Line-1r">
+        <use href={sprite + "#icon-Line-1"}></use>
+       </svg>
             <ul>
                 <li>
                     <div>

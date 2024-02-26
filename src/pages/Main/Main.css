@@ -1,7 +1,7 @@
                                                  /* MOBILE STYLE */
 
 .main {
-    margin: -140px auto;
+    margin: -140px auto 0px auto;
     height: 752px;
     background-image: url(../../components/images/main_img/main.jpg);
     background-color: rgb(255, 255, 255);
@@ -179,7 +179,7 @@
 
   .main_container {
     padding: 0px;
-    width: 602px;
+    min-width: 601px;
     margin: 0 auto;
     }
 
