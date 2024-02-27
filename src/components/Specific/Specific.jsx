@@ -5,14 +5,17 @@ export const Specific = () => {
     return (
         <>
         <section className="specific">
-            <h3>Особливості планування</h3>
+            <div className="specific_container">
+            <h3 className="specific_title">Особливості планування</h3>
             <svg className="icon-Line-1r">
         <use href={sprite + "#icon-Line-1"}></use>
        </svg>
+       </div>
+
             <ul>
                 <li>
                     <div>
-                        <picture></picture>
+                        <img src="./images/specific_img/pexels87.jpg" alt="PID"/>
                         <h4>88</h4>
                         <p>сучасних квартир</p>
                         <h5>40+</h5>
