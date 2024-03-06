@@ -1,5 +1,6 @@
 .specific {
     margin: 72px 0px 10px 0px;
+   
 }
 
 .specific_container {
@@ -9,8 +10,8 @@
 }
 
 .specific_title {
-    margin: 0px 16px 0px 24px;
-    padding: 0px;
+    margin: 0px 16px 0px 0px;
+    padding: 0px 0px 0px 24px;
     letter-spacing: -0.05em;
     font-family: "Nutino", sans-serif;
     font-weight: 400;
@@ -24,5 +25,22 @@
     padding: 0px;
     width: 100px;
     border: 2px;
+}
+
+
+.specific_img {
+    display: block;
+    width: 146px;
+    height: 200px;
+}
+
+.specific_list{
+    margin: 0px ;
+}
+
+.specific_list_first{
+    display: flex;
+    margin-left: -40px;
+  
 }
 
