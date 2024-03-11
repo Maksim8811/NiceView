@@ -40,7 +40,32 @@
 
 .specific_list_first{
     display: flex;
-    margin-left: -40px;
+    /* margin-left: -40px; */
+    margin-right: 95px;
   
 }
+
+.specific_list_first_title {
+    margin:  0px;
+    padding: 0px;
+    letter-spacing: -0.05em;
+    font-family: "Nutino", sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgba(46, 104, 141, 1);
+}
+
+.specific_list_first_paragraph {
+    margin:  0px;
+    padding: 0px;
+    letter-spacing: -0.04em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(46, 104, 141, 1);   
+}
+
 
