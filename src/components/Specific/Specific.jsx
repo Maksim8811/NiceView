@@ -22,18 +22,18 @@ export const Specific = () => {
                         <div className="">
                         <h4 className="specific_list_first_title">88</h4>
                         <p className="specific_list_first_paragraph">сучасних квартир</p>
-                        <h5 className="specific_list_first_title">40+</h5>
-                        <p className="specific_list_first_paragraph">об’єктів інфраструктури</p>
+                        <h5 className="specific_list_second_title">40+</h5>
+                        <p className="specific_list_second_paragraph">об’єктів інфраструктури</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div className="specific_list_first">
                         <div className="">
-                        <h4>300</h4>
-                        <p>задоволених власників</p>
-                        <h5>5</h5>
-                        <p>успішних проектів</p>
+                        <h4 className="specific_list_third_title">300</h4>
+                        <p className="specific_list_third_paragraph">задоволених власників</p>
+                        <h5 className="specific_list_fourth_title">5</h5>
+                        <p className="specific_list_fourth_paragraph">успішних проектів</p>
                         </div>
                         <img className="specific_img" src={pexels} alt="city"/>
                         <picture></picture>
