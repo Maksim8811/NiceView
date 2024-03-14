@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NiceView/static/css/main.552b6bb1.css",
-    "main.js": "/NiceView/static/js/main.3b1bcfed.js",
+    "main.css": "/NiceView/static/css/main.164f302c.css",
+    "main.js": "/NiceView/static/js/main.bb202e4d.js",
     "static/media/mainDesktop_@2x.jpg": "/NiceView/static/media/mainDesktop_@2x.39deec5e74f58d66bef9.jpg",
     "static/media/mainTablet_@2x.jpg": "/NiceView/static/media/mainTablet_@2x.0fbbcebd6255aca98afc.jpg",
     "static/media/main_@2x.jpg": "/NiceView/static/media/main_@2x.cce305ede85935e81c83.jpg",
@@ -14,11 +14,11 @@
     "static/media/sprite.svg": "/NiceView/static/media/sprite.270fa83bf09ac33df1a87ba1dbd7cadb.svg",
     "index.html": "/NiceView/index.html",
     "static/media/main_polygon.svg": "/NiceView/static/media/main_polygon.669d486a645d69530dfb.svg",
-    "main.552b6bb1.css.map": "/NiceView/static/css/main.552b6bb1.css.map",
-    "main.3b1bcfed.js.map": "/NiceView/static/js/main.3b1bcfed.js.map"
+    "main.164f302c.css.map": "/NiceView/static/css/main.164f302c.css.map",
+    "main.bb202e4d.js.map": "/NiceView/static/js/main.bb202e4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.552b6bb1.css",
-    "static/js/main.3b1bcfed.js"
+    "static/css/main.164f302c.css",
+    "static/js/main.bb202e4d.js"
   ]
 }
