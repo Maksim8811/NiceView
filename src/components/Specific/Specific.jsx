@@ -19,7 +19,7 @@ export const Specific = () => {
                 <li>
                     <div className="specific_list_first">
                         <img className="specific_img" src={otoniel} alt="city"/>
-                        <div className="">
+                        <div className="specific_list_first_container">
                         <h4 className="specific_list_first_title">88</h4>
                         <p className="specific_list_first_paragraph">сучасних квартир</p>
                         <h5 className="specific_list_second_title">40+</h5>
@@ -28,8 +28,8 @@ export const Specific = () => {
                     </div>
                 </li>
                 <li>
-                    <div className="specific_list_first">
-                        <div className="">
+                    <div className="specific_list_second">
+                        <div className="specific_list_second_container">
                         <h4 className="specific_list_third_title">300</h4>
                         <p className="specific_list_third_paragraph">задоволених власників</p>
                         <h5 className="specific_list_fourth_title">5</h5>

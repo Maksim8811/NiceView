@@ -5,7 +5,7 @@
 
 .specific_container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     height: 36px;
     margin: 0px, 0px, 0px, auto;
 }
@@ -24,7 +24,7 @@
 .icon-Line-1r {
     margin: 0px ; 
     padding: 0px;
-    width: 100px;
+    width: 80px;
     border: 2px;
 }
 
@@ -41,9 +41,14 @@
 
 .specific_list_first{
     display: flex;
-    /* margin-left: -40px; */
-    margin-right: 95px;
+    margin-left: -30px;
   
+}
+
+.specific_list_first_container{
+    margin-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .specific_list_first_title {
@@ -91,6 +96,19 @@
     font-size: 20px;
     line-height: 30px;
     color: rgba(141, 101, 21, 1);
+}
+
+.specific_list_second {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -40px;
+}
+
+.specific_list_second_container {
+    margin-right: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
 .specific_list_third_title {
