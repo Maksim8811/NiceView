@@ -18,7 +18,7 @@ export const Specific = () => {
             <ul>
                 <li>
                     <div className="specific_list_first">
-                        <img className="specific_img" src={otoniel} alt="city"/>
+                        <img className="specific_img_one" src={otoniel} alt="city"/>
                         <div className="specific_list_first_container">
                         <h4 className="specific_list_first_title">88</h4>
                         <p className="specific_list_first_paragraph">сучасних квартир</p>
@@ -35,7 +35,7 @@ export const Specific = () => {
                         <h5 className="specific_list_fourth_title">5</h5>
                         <p className="specific_list_fourth_paragraph">успішних проектів</p>
                         </div>
-                        <img className="specific_img" src={pexels} alt="city"/>
+                        <img className="specific_img_two" src={pexels} alt="city"/>
                         <picture></picture>
                     </div>
                 </li>

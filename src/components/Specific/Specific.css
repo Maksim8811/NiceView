@@ -1,5 +1,8 @@
 .specific {
-    margin: 72px 0px 10px 0px;
+    margin: 72px auto 10px auto;
+    /* padding: 0px 10px 0px 10px;
+    width: 454px; */
+    /* background-color: rgb(162, 162, 233); */
    
 }
 
@@ -29,19 +32,35 @@
 }
 
 
-.specific_img {
+.specific_img_one {
+    display: block;
+    
+    width: 146px;
+    height: 200px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.specific_img_two {
+   
     display: block;
     width: 146px;
     height: 200px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .specific_list{
     margin: 0px ;
+    /* position: relative; */
+    
 }
 
 .specific_list_first{
     display: flex;
-    margin-left: -30px;
+   justify-content: flex-start;
+    /* margin-left: -30px; */
+
   
 }
 
@@ -101,7 +120,10 @@
 .specific_list_second {
     display: flex;
     justify-content: flex-end;
-    margin-right: -40px;
+    /* margin-right: -40px; */
+   
+    
+    
 }
 
 .specific_list_second_container {
