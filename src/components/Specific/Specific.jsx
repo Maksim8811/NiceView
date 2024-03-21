@@ -1,7 +1,9 @@
 import "./Specific.css"
 import sprite from "../images/sprite.svg"
-import pexels from "../images/specific_img/pexels87.jpg"
-import otoniel from "../images/specific_img/otoniel11.jpg"
+import pexelsH144 from "../images/specific_img/pexels87_144.jpg"
+import otonielH144 from "../images/specific_img/otoniel11_144.jpg"
+import pexelsH480 from "../images/specific_img/pexels87_480.jpg"
+import otonielH480 from "../images/specific_img/otoniel11_480.jpg"
 
 export const Specific = () => {
     return (
@@ -18,7 +20,9 @@ export const Specific = () => {
             <ul>
                 <li>
                     <div className="specific_list_first">
-                        <img className="specific_img_one" src={otoniel} alt="city"/>
+                        <img className="specific_img_one" 
+                        //    srcSet={`${otonielH144} 390w, ${otonielH480} 768w`}
+                            src={otonielH144} alt="city"/>
                         <div className="specific_list_first_container">
                         <h4 className="specific_list_first_title">88</h4>
                         <p className="specific_list_first_paragraph">сучасних квартир</p>
@@ -35,7 +39,7 @@ export const Specific = () => {
                         <h5 className="specific_list_fourth_title">5</h5>
                         <p className="specific_list_fourth_paragraph">успішних проектів</p>
                         </div>
-                        <img className="specific_img_two" src={pexels} alt="city"/>
+                        <img className="specific_img_two" src={pexelsH144} alt="city"/>
                         <picture></picture>
                     </div>
                 </li>

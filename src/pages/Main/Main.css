@@ -106,7 +106,7 @@
 
 @media screen and (min-width: 768px) {
   .main {
-    margin: -120px auto;
+    margin: -120px auto 0px auto;
     height: 1024px;
     background-image: url(../../components/images/main_img/mainTablet.jpg);
     background-color: rgb(255, 255, 255);
