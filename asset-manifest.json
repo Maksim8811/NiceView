@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/NiceView/static/css/main.480ce23e.css",
-    "main.js": "/NiceView/static/js/main.3d59ac98.js",
+    "main.css": "/NiceView/static/css/main.fd177bc5.css",
+    "main.js": "/NiceView/static/js/main.4c5d8bb3.js",
     "static/media/mainDesktop_@2x.jpg": "/NiceView/static/media/mainDesktop_@2x.39deec5e74f58d66bef9.jpg",
     "static/media/mainTablet_@2x.jpg": "/NiceView/static/media/mainTablet_@2x.0fbbcebd6255aca98afc.jpg",
     "static/media/main_@2x.jpg": "/NiceView/static/media/main_@2x.cce305ede85935e81c83.jpg",
     "static/media/mainTablet.jpg": "/NiceView/static/media/mainTablet.05f319661f81610aae0a.jpg",
+    "static/media/otoniel_480@2x.jpg": "/NiceView/static/media/otoniel_480@2x.f4c95fcb0f5682d97a8e.jpg",
+    "static/media/pexels_480@2x.jpg": "/NiceView/static/media/pexels_480@2x.38daeb19446826b9ce77.jpg",
     "static/media/RobotoCondensed-VariableFont_wght.ttf": "/NiceView/static/media/RobotoCondensed-VariableFont_wght.ff29b2791402495b1616.ttf",
     "static/media/main.jpg": "/NiceView/static/media/main.6c59f1b041547f50616b.jpg",
     "static/media/Nunito-VariableFont_wght.ttf": "/NiceView/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
-    "static/media/otoniel11_144.jpg": "/NiceView/static/media/otoniel11_144.774cc9de770a5419f69d.jpg",
-    "static/media/pexels87_144.jpg": "/NiceView/static/media/pexels87_144.a764a28e5a960f9203ca.jpg",
+    "static/media/otoniel_240.jpg": "/NiceView/static/media/otoniel_240.366f32fb7891ef293a36.jpg",
+    "static/media/pexels_240.jpg": "/NiceView/static/media/pexels_240.84c751f4f7653d8b1a42.jpg",
+    "static/media/otoniel_144.jpg": "/NiceView/static/media/otoniel_144.774cc9de770a5419f69d.jpg",
+    "static/media/pexels_144.jpg": "/NiceView/static/media/pexels_144.a764a28e5a960f9203ca.jpg",
     "static/media/sprite.svg": "/NiceView/static/media/sprite.270fa83bf09ac33df1a87ba1dbd7cadb.svg",
     "index.html": "/NiceView/index.html",
-    "static/media/main_polygon.svg": "/NiceView/static/media/main_polygon.669d486a645d69530dfb.svg",
-    "main.480ce23e.css.map": "/NiceView/static/css/main.480ce23e.css.map",
-    "main.3d59ac98.js.map": "/NiceView/static/js/main.3d59ac98.js.map"
+    "main.fd177bc5.css.map": "/NiceView/static/css/main.fd177bc5.css.map",
+    "main.4c5d8bb3.js.map": "/NiceView/static/js/main.4c5d8bb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.480ce23e.css",
-    "static/js/main.3d59ac98.js"
+    "static/css/main.fd177bc5.css",
+    "static/js/main.4c5d8bb3.js"
   ]
 }
