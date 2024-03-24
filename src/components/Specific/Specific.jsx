@@ -2,8 +2,8 @@ import "./Specific.css"
 import sprite from "../images/sprite.svg"
 import pexelsH144 from "../images/specific_img/pexels87_144.jpg"
 import otonielH144 from "../images/specific_img/otoniel11_144.jpg"
-import pexelsH480 from "../images/specific_img/pexels87_480.jpg"
-import otonielH480 from "../images/specific_img/otoniel11_480.jpg"
+// import pexelsH480 from "../images/specific_img/pexels87_480.jpg"
+// import otonielH480 from "../images/specific_img/otoniel11_480.jpg"
 
 export const Specific = () => {
     return (
