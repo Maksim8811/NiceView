@@ -166,16 +166,16 @@
 
 
   @media screen and (min-width: 1440px) {
-   
+
     .main {
     display: flex;
     height: 1078px;
-    background-image: url(../../components/images/main_polygon.svg);
-   
-    
-    
-  }
+    /* background-image: url(../../components/images/main_polygon.svg); */
+   }
 
+   /* .poligon{
+  background-color: aquamarine;
+   } */
 
   .main_container {
     padding: 0px;
@@ -237,6 +237,5 @@
   .main_gradient_text {
     display: none;
 }
-  
  
     }

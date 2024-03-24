@@ -1,9 +1,12 @@
 import "./Specific.css"
 import sprite from "../images/sprite.svg"
-import pexelsH144 from "../images/specific_img/pexels87_144.jpg"
-import otonielH144 from "../images/specific_img/otoniel11_144.jpg"
-// import pexelsH480 from "../images/specific_img/pexels87_480.jpg"
-// import otonielH480 from "../images/specific_img/otoniel11_480.jpg"
+import pexels from "../images/specific_img/pexels_144.jpg"
+import pexels_240 from "../images/specific_img/pexels_240.jpg"
+import pexels_480 from "../images/specific_img/pexels_480@2x.jpg"
+import otoniel from "../images/specific_img/otoniel_144.jpg"
+import otoniel_240 from "../images/specific_img/otoniel_240.jpg"
+import otoniel_480 from "../images/specific_img/otoniel_480@2x.jpg"
+
 
 export const Specific = () => {
     return (
@@ -21,8 +24,9 @@ export const Specific = () => {
                 <li>
                     <div className="specific_list_first">
                         <img className="specific_img_one" 
-                        //    srcSet={`${otonielH144} 390w, ${otonielH480} 768w`}
-                            src={otonielH144} alt="city"/>
+                           srcSet={`${otoniel} 144w, ${otoniel_240} 240w, ${otoniel_480} 480w`}
+                           sizes="144px"
+                            src={otoniel} alt="city"/>
                         <div className="specific_list_first_container">
                         <h4 className="specific_list_first_title">88</h4>
                         <p className="specific_list_first_paragraph">сучасних квартир</p>
@@ -39,7 +43,10 @@ export const Specific = () => {
                         <h5 className="specific_list_fourth_title">5</h5>
                         <p className="specific_list_fourth_paragraph">успішних проектів</p>
                         </div>
-                        <img className="specific_img_two" src={pexelsH144} alt="city"/>
+                        <img className="specific_img_two" 
+                           srcSet={`${pexels} 144w, ${pexels_240} 240w, ${pexels_480} 480w`}
+                           sizes="144px"
+                            src={pexels} alt="city"/>
                         <picture></picture>
                     </div>
                 </li>

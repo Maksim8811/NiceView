@@ -7,7 +7,8 @@ export const Main = () => {
     return (
       <>
       <main>
-      <section  className="main">
+      <section className="main">
+       
         <div className="main_container">
         <div className="main_modal">
           <h2 className="main_modal_tittle">ЖК “Nice view”</h2>
