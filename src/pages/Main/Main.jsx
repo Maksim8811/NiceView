@@ -7,6 +7,7 @@ export const Main = () => {
     return (
       <>
       <main>
+        
       <section className="main">
        
         <div className="main_container">
@@ -21,8 +22,9 @@ export const Main = () => {
         <div className="main_gradient">
           <p className="main_gradient_text">м.Київ, просп. Вознесенський 148</p>
         </div>
-        <div className="main_img"></div>
+        {/* <div className="main_img"></div> */}
       </section>
+      {/* <div className="poligon"></div> */}
 
       <Specific/>
 

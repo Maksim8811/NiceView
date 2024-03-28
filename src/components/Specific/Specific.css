@@ -346,4 +346,46 @@
 
 }
 
+                                                /* DESKTOP STYLE */
+ @media screen and (min-width: 1440px) {
+    .specific {
+        margin: 120px 0px 0px auto;
+        width: 1380px;
+       }
 
+    .specific_container {
+        padding: 0px 0px 32px 0px;
+        display: block;
+        height: 64px;
+    }
+    
+    .specific_title {
+        margin: 0px 0px 0px 438px;
+        letter-spacing: -0.05em;
+        font-family: "Nutino", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        color: rgba(50, 64, 82, 1);
+    }
+
+    .icon-Line-1r {
+        display: none;
+       
+    }
+
+    .icon-Line-1r_desktop::after{
+        position: absolute;
+        display: block; 
+         content: "";
+        height: 4px;
+        width: 100%;
+        background-color: rgba(206, 177, 129, 1);
+        border-radius: 2px; 
+        left: 506px;
+
+       
+        
+    }
+       
+ }
