@@ -26,7 +26,7 @@ export const Specific = () => {
                     <div className="specific_list_first">
                         <img className="specific_img_one" 
                            srcSet={`${otoniel} 144w, ${otoniel_240} 240w, ${otoniel_480} 480w`}
-                           sizes="144px"
+                           sizes="240px"
                             src={otoniel} alt="city"/>
                         <div className="specific_list_first_container">
                         <h4 className="specific_list_first_title">88</h4>
