@@ -1,11 +1,11 @@
 import "./Specific.css"
 import sprite from "../images/sprite.svg"
-import pexels from "../images/specific_img/pexels_144.jpg"
-import pexels_240 from "../images/specific_img/pexels_240.jpg"
-import pexels_480 from "../images/specific_img/pexels_480@2x.jpg"
-import otoniel from "../images/specific_img/otoniel_144.jpg"
-import otoniel_240 from "../images/specific_img/otoniel_240.jpg"
-import otoniel_480 from "../images/specific_img/otoniel_480@2x.jpg"
+import otoniel_1x from "../images/specific_img/otoniel.jpg"
+import otoniel_2x from "../images/specific_img/otoniel@2x.jpg"
+import otonielTablet_1x from "../images/specific_img/otoniel_tablet@1x.jpg"
+import otonielTablet_2x from "../images/specific_img/otoniel_tablet@2x.jpg"
+import otonielDesktop_1x from "../images/specific_img/otoniel_desktop@1x.jpg"
+import otonielDesktop_2x from "../images/specific_img/otoniel_desktop@2x.jpg"
 
 
 export const Specific = () => {
@@ -24,10 +24,22 @@ export const Specific = () => {
             <ul>
                 <li>
                     <div className="specific_list_first">
-                        <img className="specific_img_one" 
-                           srcSet={`${otoniel} 144w, ${otoniel_240} 240w, ${otoniel_480} 480w`}
-                           sizes="240px"
-                            src={otoniel} alt="city"/>
+                    <picture>
+      <source srcSet={`${otoniel_1x} 1x, ${otoniel_2x} 2x`}
+              media="(max-width: 767px)"
+              type="image/jpeg"
+              sizes="144px"/>
+      <source srcSet={`${otonielTablet_1x} 1x, ${otonielTablet_2x} 2x`}
+              media="(max-width: 1439px)"
+              type="image/jpeg"
+              sizes="240px"/>
+      <source srcSet={`${otonielDesktop_1x} 1x, ${otonielDesktop_2x} 2x`}
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+              sizes="450px"/>
+      <img src={otoniel_1x} alt="Cute puppy"/>
+      </picture>
+                  
                         <div className="specific_list_first_container">
                         <h4 className="specific_list_first_title">88</h4>
                         <p className="specific_list_first_paragraph">сучасних квартир</p>
@@ -44,10 +56,10 @@ export const Specific = () => {
                         <h5 className="specific_list_fourth_title">5</h5>
                         <p className="specific_list_fourth_paragraph">успішних проектів</p>
                         </div>
-                        <img className="specific_img_two" 
+                        {/* <img className="specific_img_two" 
                            srcSet={`${pexels} 144w, ${pexels_240} 240w, ${pexels_480} 480w`}
                            sizes="144px"
-                            src={pexels} alt="city"/>
+                            src={pexels} alt="city"/> */}
                         <picture></picture>
                     </div>
                 </li>
