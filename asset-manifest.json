@@ -1,27 +1,26 @@
 {
   "files": {
     "main.css": "/NiceView/static/css/main.6fb00eba.css",
-    "main.js": "/NiceView/static/js/main.0a39ce62.js",
+    "main.js": "/NiceView/static/js/main.0e73bd29.js",
     "static/media/mainDesktop_@2x.jpg": "/NiceView/static/media/mainDesktop_@2x.39deec5e74f58d66bef9.jpg",
     "static/media/mainTablet_@2x.jpg": "/NiceView/static/media/mainTablet_@2x.0fbbcebd6255aca98afc.jpg",
     "static/media/main_@2x.jpg": "/NiceView/static/media/main_@2x.cce305ede85935e81c83.jpg",
     "static/media/mainTablet.jpg": "/NiceView/static/media/mainTablet.05f319661f81610aae0a.jpg",
-    "static/media/otoniel_480@2x.jpg": "/NiceView/static/media/otoniel_480@2x.f4c95fcb0f5682d97a8e.jpg",
-    "static/media/pexels_480@2x.jpg": "/NiceView/static/media/pexels_480@2x.38daeb19446826b9ce77.jpg",
     "static/media/RobotoCondensed-VariableFont_wght.ttf": "/NiceView/static/media/RobotoCondensed-VariableFont_wght.ff29b2791402495b1616.ttf",
     "static/media/main.jpg": "/NiceView/static/media/main.6c59f1b041547f50616b.jpg",
     "static/media/Nunito-VariableFont_wght.ttf": "/NiceView/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
-    "static/media/otoniel_240.jpg": "/NiceView/static/media/otoniel_240.366f32fb7891ef293a36.jpg",
-    "static/media/pexels_240.jpg": "/NiceView/static/media/pexels_240.84c751f4f7653d8b1a42.jpg",
-    "static/media/otoniel_144.jpg": "/NiceView/static/media/otoniel_144.774cc9de770a5419f69d.jpg",
-    "static/media/pexels_144.jpg": "/NiceView/static/media/pexels_144.a764a28e5a960f9203ca.jpg",
+    "static/media/otoniel_desktop@2x.jpg": "/NiceView/static/media/otoniel_desktop@2x.f72160fb5931e566ea3f.jpg",
+    "static/media/otoniel_tablet@2x.jpg": "/NiceView/static/media/otoniel_tablet@2x.d5136d53eedbfa88f20f.jpg",
+    "static/media/otoniel_desktop@1x.jpg": "/NiceView/static/media/otoniel_desktop@1x.2307d28b31e38e72c8f0.jpg",
+    "static/media/otoniel@2x.jpg": "/NiceView/static/media/otoniel@2x.a92a45628e8b2a35a05b.jpg",
+    "static/media/otoniel_tablet@1x.jpg": "/NiceView/static/media/otoniel_tablet@1x.5b089c6f88c7e345cc2a.jpg",
     "static/media/sprite.svg": "/NiceView/static/media/sprite.270fa83bf09ac33df1a87ba1dbd7cadb.svg",
     "index.html": "/NiceView/index.html",
     "main.6fb00eba.css.map": "/NiceView/static/css/main.6fb00eba.css.map",
-    "main.0a39ce62.js.map": "/NiceView/static/js/main.0a39ce62.js.map"
+    "main.0e73bd29.js.map": "/NiceView/static/js/main.0e73bd29.js.map"
   },
   "entrypoints": [
     "static/css/main.6fb00eba.css",
-    "static/js/main.0a39ce62.js"
+    "static/js/main.0e73bd29.js"
   ]
 }
