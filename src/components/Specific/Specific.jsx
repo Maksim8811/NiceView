@@ -6,6 +6,12 @@ import otonielTablet_1x from "../images/specific_img/otoniel_tablet@1x.jpg"
 import otonielTablet_2x from "../images/specific_img/otoniel_tablet@2x.jpg"
 import otonielDesktop_1x from "../images/specific_img/otoniel_desktop@1x.jpg"
 import otonielDesktop_2x from "../images/specific_img/otoniel_desktop@2x.jpg"
+import pexels_1x from "../images/specific_img/pexels.jpg"
+import pexels_2x from "../images/specific_img/pexels@2x.jpg"
+import pexels_tablet_1x from "../images/specific_img/pexels_tablet@1x.jpg"
+import pexels_tablet_2x from "../images/specific_img/pexels_tablet@2x.jpg"
+import pexels_desktop_1x from "../images/specific_img/pexels_desktop@2x.jpg"
+import pexels_desktop_2x from "../images/specific_img/pexels_desktop@2x.jpg"
 
 
 export const Specific = () => {
@@ -24,7 +30,7 @@ export const Specific = () => {
             <ul>
                 <li>
                     <div className="specific_list_first">
-                    <picture>
+                    <picture className="specific_first_photo">
       <source srcSet={`${otoniel_1x} 1x, ${otoniel_2x} 2x`}
               media="(max-width: 767px)"
               type="image/jpeg"
@@ -37,7 +43,7 @@ export const Specific = () => {
               media="(min-width: 1440px)"
               type="image/jpeg"
               sizes="450px"/>
-      <img src={otoniel_1x} alt="Cute puppy"/>
+      <img className="img_first" src={otoniel_1x} alt="Cute puppy"/>
       </picture>
                   
                         <div className="specific_list_first_container">
@@ -56,11 +62,21 @@ export const Specific = () => {
                         <h5 className="specific_list_fourth_title">5</h5>
                         <p className="specific_list_fourth_paragraph">успішних проектів</p>
                         </div>
-                        {/* <img className="specific_img_two" 
-                           srcSet={`${pexels} 144w, ${pexels_240} 240w, ${pexels_480} 480w`}
-                           sizes="144px"
-                            src={pexels} alt="city"/> */}
-                        <picture></picture>
+                        <picture>
+      <source srcSet={`${pexels_1x} 1x, ${pexels_2x} 2x`}
+              media="(max-width: 767px)"
+              type="image/jpeg"
+              sizes="144px"/>
+      <source srcSet={`${pexels_tablet_1x} 1x, ${pexels_tablet_2x} 2x`}
+              media="(max-width: 1439px)"
+              type="image/jpeg"
+              sizes="240px"/>
+      <source srcSet={`${pexels_desktop_1x} 1x, ${pexels_desktop_2x} 2x`}
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+              sizes="450px"/>
+      <img src={pexels_1x} alt="Cute puppy"/>
+      </picture>
                     </div>
                 </li>
             </ul>
