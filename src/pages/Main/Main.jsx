@@ -1,5 +1,6 @@
 import "./Main.css"
 import {Specific} from "../../components/Specific/Specific"
+import {Preference} from "../../components/Preference/Preference"
 
 
 export const Main = () => {
@@ -22,11 +23,10 @@ export const Main = () => {
         <div className="main_gradient">
           <p className="main_gradient_text">м.Київ, просп. Вознесенський 148</p>
         </div>
-        {/* <div className="main_img"></div> */}
       </section>
-      {/* <div className="poligon"></div> */}
 
       <Specific/>
+      <Preference/>
 
       </main>
      </>

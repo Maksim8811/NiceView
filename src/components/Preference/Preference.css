@@ -1,0 +1,27 @@
+.preference {
+    margin: 56px 16px 0px 0px;
+}
+
+.preference_container {
+    padding: 0px 0px 24px 0px;
+    display: flex;
+    justify-content: flex-start;
+    height: 36px;
+}
+
+.icon-Line-pref {
+    width: 135px;
+    border: 2px;
+}
+
+
+
+.preference_title {
+    margin: 0px 0px 0px 16px;
+    letter-spacing: -0.05em;
+    font-family: "Nutino", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(50, 64, 82, 1);
+}

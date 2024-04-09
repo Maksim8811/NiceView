@@ -75,7 +75,7 @@ export const Specific = () => {
               media="(min-width: 1440px)"
               type="image/jpeg"
               sizes="450px"/>
-      <img src={pexels_1x} alt="Cute puppy"/>
+      <img className="img_first" src={pexels_1x} alt="Cute puppy"/>
       </picture>
                     </div>
                 </li>
