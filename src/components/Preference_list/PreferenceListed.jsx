@@ -98,7 +98,7 @@ const preferenceListInfo = [
     }
 ]
 
-export const Preference_list = () => {
+export const PreferenceList = () => {
     return (
         <>
             {preferenceListInfo.map(item => {
