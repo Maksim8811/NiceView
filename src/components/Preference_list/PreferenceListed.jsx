@@ -31,6 +31,8 @@ import scrDesk_4_2x from "../images/preference_img/preference_desktop_4@2x.jpg"
 import scrDesk_5_1x from "../images/preference_img/preference_desktop_5@1x.jpg"
 import scrDesk_5_2x from "../images/preference_img/preference_desktop_5@2x.jpg"
 
+import "../Preference_list/Preference_list.css"
+
 const preferenceListInfo = [
     {id: "id-1",
      srcMob1: srcMob_1_1x,
@@ -101,17 +103,39 @@ const preferenceListInfo = [
 export const PreferenceList = () => {
     return (
         <>
+        <div className="preference_list">
             {preferenceListInfo.map(item => {
                 return(
                     <ul key={item.id}>
                 <li>
+                    <div className="preference_list_item">
+                    <picture>
+                    <source srcSet={`${item.srcMob1} 1x, ${item.srcMob2} 2x`}
+              media="(max-width: 767px)"
+              type="image/jpeg"
+              sizes="126px"/>
+                    <source srcSet={`${item.srcTab1} 1x, ${item.srcTab2} 2x`}
+              media="(max-width: 1439px)"
+              type="image/jpeg"
+              sizes="248px"/>
+                    <source srcSet={`${item.srcDesk1} 1x, ${item.srcDesk2} 2x`}
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+              sizes="642px"/>
                     <img src={item.srcMob1} alt={item.alt}/>
+                    </picture>
+
+                    <div className="preference_gradient"></div>
+                    <div>
                     <h4>{item.title}</h4>
                     <p>{item.text}</p>
+                    </div>
+                    
+                    </div>
                 </li>
                 </ul>
             )})}
-        
+        </div>
         </>
         
     )
