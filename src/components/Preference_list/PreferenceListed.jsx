@@ -103,11 +103,11 @@ const preferenceListInfo = [
 export const PreferenceList = () => {
     return (
         <>
-        <div className="preference_list">
+        <ul className="preference_list">
             {preferenceListInfo.map(item => {
                 return(
-                    <ul key={item.id}>
-                <li>
+                    
+                <li className="preferense_list_li">
                     <div className="preference_list_item">
                     <picture>
                     <source srcSet={`${item.srcMob1} 1x, ${item.srcMob2} 2x`}
@@ -122,20 +122,20 @@ export const PreferenceList = () => {
               media="(min-width: 1440px)"
               type="image/jpeg"
               sizes="642px"/>
-                    <img src={item.srcMob1} alt={item.alt}/>
+                    <img className="preference_photo" src={item.srcMob1} alt={item.alt}/>
                     </picture>
 
                     <div className="preference_gradient"></div>
                     <div>
                     <h4>{item.title}</h4>
-                    <p>{item.text}</p>
+                    {/* <p>{item.text}</p> */}
                     </div>
                     
                     </div>
                 </li>
-                </ul>
+                
             )})}
-        </div>
+        </ul>
         </>
         
     )

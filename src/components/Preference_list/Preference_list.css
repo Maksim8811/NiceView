@@ -4,8 +4,29 @@
     padding-right: 16px;
 }
 
+.preferense_list_li {
+    margin-bottom: 16px;
+}
+
+.preferense_list_li:last-child{
+ margin-bottom: 0px;
+}
 .preference_list_item {
     display: flex;
-    border: 1px solid red;
     height: 160px;
+    background-color: rgba(221, 229, 232, 1);
+    border-radius: 4px;
+}
+
+.preference_photo {
+    width: 126px;
+    height: 160px;
+}
+
+.preference_gradient {
+    margin-left: -40px;
+    height: 160px;
+    width: 40px;
+    padding: 0;
+    background-image: linear-gradient(to left, rgba(221, 229, 232, 1), rgba(255, 255, 255, 0));
 }
