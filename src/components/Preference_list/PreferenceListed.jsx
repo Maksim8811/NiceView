@@ -126,9 +126,9 @@ export const PreferenceList = () => {
                     </picture>
 
                     <div className="preference_gradient"></div>
-                    <div>
-                    <h4>{item.title}</h4>
-                    {/* <p>{item.text}</p> */}
+                    <div className="preference_content">
+                    <h5 className="preference_content_title">{item.title}</h5>
+                    <p className="preference_text">{item.text}</p>
                     </div>
                     
                     </div>
