@@ -26,7 +26,8 @@
   - проблема з респонсивними зображенями секції specific /// вирішено
   - початок верстки та стилізації секції preference mobile
   - почати верстки та стилізації секції preference tablet
+  - problem whith border radius in preferense_list_li
   
 
 
-Time: 38:00:00
+Time: 40:00:00

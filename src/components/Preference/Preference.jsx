@@ -7,6 +7,7 @@ export const Preference = () => {
         <>
        <section className="preference">
         <div className="preference_container">
+            {/* <div className="preference_line"></div> */}
         <svg className="icon-Line-pref">
         <use href={sprite + "#icon-Line-1"}></use>
        </svg>
