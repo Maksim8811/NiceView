@@ -23,7 +23,6 @@
 .preference_photo {
     width: 126px;
     height: 160px;
-    border: solid 2px red;
     border-radius: 16px;
 }
 
@@ -77,7 +76,6 @@
 
 .preferense_list_li {
     margin-bottom: 16px;
-    border: solid 2px green;
     border-radius: 16px;
 }
 
@@ -90,7 +88,7 @@
     height: 320px;
     background-color: rgba(221, 229, 232, 1);
     box-shadow: 1.97px 1.97px 3.94px 0px rgba(0, 0, 0, 0.15);
-    ;
+    border-radius: 16px;
 }
 
 .preference_photo {
@@ -134,5 +132,42 @@
     line-height: 36px;
     color:rgba(50, 64, 82, 1);
 }
+
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width: 1440px) {
+
+.preference_list {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.preferense_list_li {
+    margin-bottom: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.preferense_list_li:nth-child(even) > div {
+    flex-direction: row-reverse;
+}
+
+.preferense_list_li:last-child{
+    margin-bottom: 0px;
+}
+
+.preference_list_item {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    height: 320px;
+    background-color: rgba(221, 229, 232, 1);
+    box-shadow: 1.97px 1.97px 3.94px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
 
 }

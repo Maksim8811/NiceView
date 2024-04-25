@@ -348,7 +348,7 @@
                                                 /* DESKTOP STYLE */
  @media screen and (min-width: 1440px) {
     .specific {
-        margin: 120px 0px 120px 60px;
+        margin: 120px 0px 0px 60px;
         width: 1380px;
         height: 979px;
        }
