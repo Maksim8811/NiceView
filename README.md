@@ -27,7 +27,8 @@
   - початок верстки та стилізації секції preference mobile
   - почати верстки та стилізації секції preference tablet
   - problem whith border radius in preferense_list_li//// вирішено
+  - продовжити роботу з preference_text
   
 
 
-Time: 42:00:00
+Time: 43:00:00
