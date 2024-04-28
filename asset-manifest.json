@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NiceView/static/css/main.2bfcea44.css",
+    "main.css": "/NiceView/static/css/main.5dbd61c8.css",
     "main.js": "/NiceView/static/js/main.86603ff4.js",
     "static/media/pexels_desktop@2x.jpg": "/NiceView/static/media/pexels_desktop@2x.71d523b34a9094742f82.jpg",
     "static/media/preference_desktop_1@2x.jpg": "/NiceView/static/media/preference_desktop_1@2x.cf2d87a4ec8936d698bd.jpg",
@@ -50,11 +50,11 @@
     "static/media/preference_tablet_4@1x.jpg": "/NiceView/static/media/preference_tablet_4@1x.f562f24fb03c77b97948.jpg",
     "static/media/sprite.svg": "/NiceView/static/media/sprite.270fa83bf09ac33df1a87ba1dbd7cadb.svg",
     "index.html": "/NiceView/index.html",
-    "main.2bfcea44.css.map": "/NiceView/static/css/main.2bfcea44.css.map",
+    "main.5dbd61c8.css.map": "/NiceView/static/css/main.5dbd61c8.css.map",
     "main.86603ff4.js.map": "/NiceView/static/js/main.86603ff4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bfcea44.css",
+    "static/css/main.5dbd61c8.css",
     "static/js/main.86603ff4.js"
   ]
 }
