@@ -159,6 +159,7 @@
 
 .preferense_list_li:nth-child(2n) > div {
     margin-bottom: -95px;
+    justify-content: space-between;
 }
 
 .preferense_list_li:last-child{
@@ -178,7 +179,7 @@
 .preference_photo {
     width: 642px;
     height: 786px;
-    border-radius: 0px;
+    border-radius: 8px;
 }
 
 .preference_gradient {
@@ -203,8 +204,10 @@
     color: rgba(46, 104, 141, 1);
 }
 
-.preferense_list_li:nth-child(2n) > div {
-    margin: 0px 0px 0px 100px;
+.preferense_list_li:nth-child(2n) > div .preference_content_title {
+    margin: 0px 0px 0px 0px;
+    width: auto;
+    background-color: red;
 }
 
 .preference_text {
@@ -218,6 +221,11 @@
     font-size: 24px;
     line-height: 36px;
     color:rgba(50, 64, 82, 1);
+}
+
+.preferense_list_li:nth-child(2n) > div .preference_text {
+    margin: 0px;
+    background-color: brown;
 }
 
 
