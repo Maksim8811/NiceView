@@ -1,6 +1,7 @@
 import "./Main.css"
 import {Specific} from "../../components/Specific/Specific"
 import {Preference} from "../../components/Preference/Preference"
+import {Gallery} from "components/Gallery/Gallery"
 
 
 export const Main = () => {
@@ -27,6 +28,7 @@ export const Main = () => {
 
       <Specific/>
       <Preference/>
+      <Gallery/>
 
       </main>
      </>

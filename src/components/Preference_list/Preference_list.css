@@ -206,8 +206,8 @@
 
 .preferense_list_li:nth-child(2n) > div .preference_content_title {
     margin: 0px 0px 0px 0px;
+    text-align: end;
     width: auto;
-    background-color: red;
 }
 
 .preference_text {
@@ -225,7 +225,8 @@
 
 .preferense_list_li:nth-child(2n) > div .preference_text {
     margin: 0px;
-    background-color: brown;
+    width: 646px;
+    text-align: right;
 }
 
 
