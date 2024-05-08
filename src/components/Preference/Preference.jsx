@@ -7,9 +7,7 @@ export const Preference = () => {
         <>
        <section className="preference">
         <div className="preference_container">
-        <svg className="icon-Line-pref">
-        <use href={sprite + "#icon-Line-1"}></use>
-       </svg>
+            <div className="icon-Line-2r"></div>
             <h4 className="preference_title">Переваги комплексу</h4>
             <div className="icon-Line-preference_desktop"></div>
         </div>

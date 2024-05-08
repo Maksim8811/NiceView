@@ -99,8 +99,6 @@
 .specific_list_second {
     display: flex;
     justify-content: flex-end;
-    /* margin-right: -40px; */
-   
 }
 
 .specific_list_second_container {
@@ -340,7 +338,7 @@
                                                 /* DESKTOP STYLE */
  @media screen and (min-width: 1440px) {
     .specific {
-        margin: 120px 0px 0px 60px;
+        margin: 120px auto 0px auto;
         width: 1380px;
         height: 979px;
        }
