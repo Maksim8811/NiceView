@@ -11,7 +11,7 @@ export const Gallery = () => {
             </div>
 
             <div className="gallery_lib">
-                <p>EWE</p>
+                <p>del 16px radius</p>
                 {/* <img src={null}/> */}
             </div>
         </section>

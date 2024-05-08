@@ -17,13 +17,14 @@
     display: flex;
     height: 160px;
     background-color: rgba(221, 229, 232, 1);
+    /* border: solid 1px red; */
     border-radius: 4px;
 }
 
 .preference_photo {
     width: 126px;
     height: 160px;
-    border-radius: 16px;
+    /* border-radius: 16px; */
 }
 
 .preference_gradient {
