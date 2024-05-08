@@ -18,12 +18,10 @@ export const Specific = () => {
     return (
         <>
         <section className="specific">
-            <div className="specific_container">
+        <div className="specific_container">
             <h3 className="specific_title">Особливості планування</h3>
             <div className="icon-Line-1r_desktop"></div>
-            <svg className="icon-Line-1r icon-Line-desktop">
-        <use href={sprite + "#icon-Line-1"}></use>
-       </svg>
+            <div className="icon-Line-1r"></div>
        </div>
 
             <div className="specific_list">

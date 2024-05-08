@@ -26,9 +26,12 @@
 }
 
 .icon-Line-3r {
-    margin: 0px ; 
-    padding: 0px;
+    margin: 15px 0px 0px 0px;
+    display: block; 
+    content: "";
     height: 2px;
-    width: 265px;
-    border: 2px;
+    width: 266px;
+    background-color: #CEB181;
+    border-radius: 2px; 
+    
 }
