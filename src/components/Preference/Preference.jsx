@@ -1,5 +1,4 @@
 import "./Preference.css"
-import sprite from "../images/sprite.svg"
 import {PreferenceList} from "../Preference_list/PreferenceListed"
 
 export const Preference = () => {

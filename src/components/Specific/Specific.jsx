@@ -1,5 +1,5 @@
 import "./Specific.css"
-import sprite from "../images/sprite.svg"
+
 import otoniel_1x from "../images/specific_img/otoniel.jpg"
 import otoniel_2x from "../images/specific_img/otoniel@2x.jpg"
 import otonielTablet_1x from "../images/specific_img/otoniel_tablet@1x.jpg"

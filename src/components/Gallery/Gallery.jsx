@@ -1,5 +1,4 @@
 import "./Gallery.css"
-import sprite from "../images/sprite.svg"
 
 export const Gallery = () => {
 
@@ -9,6 +8,11 @@ export const Gallery = () => {
             <div className="gallery_container">
                 <h3 className="gallery_title">Галерея</h3>
                 <div className="icon-Line-3r"></div>
+            </div>
+
+            <div className="gallery_lib">
+                <p>EWE</p>
+                {/* <img src={null}/> */}
             </div>
         </section>
         
