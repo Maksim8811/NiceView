@@ -33,8 +33,37 @@
     width: 266px;
     background-color: #CEB181;
     border-radius: 2px; 
-    
 }
+
+.gallery_lib {
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.left_arrow {
+    margin-right: 26px;
+    color: rgba(141, 101, 21, 1);
+}
+
+.gallery_img {
+    margin: 0px;
+    height: 220px;
+}
+
+.right_arrow {
+    margin-left: 26px;
+    color: rgba(141, 101, 21, 1); 
+}
+
+
+
+
+
+
+
+
+
 
 /*TABLET*/
 @media screen and (min-width: 768px) {
