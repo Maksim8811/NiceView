@@ -24,7 +24,7 @@
 .preference_photo {
     width: 126px;
     height: 160px;
-    /* border-radius: 16px; */
+    border-radius: 4px;
 }
 
 .preference_gradient {

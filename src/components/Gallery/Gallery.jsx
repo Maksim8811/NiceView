@@ -1,7 +1,11 @@
 import "./Gallery.css"
-import { useState } from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { register } from "swiper/element/bundle"
+import { useEffect, useRef } from "react"
+
+
+// import { useState } from "react"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import im1x from "../images/gallery_img/galley@1x.jpg"
 import im1x1 from "../images/gallery_img/galley@1x1.jpg"
 import im1x2 from "../images/gallery_img/galley@1x2.jpg"
@@ -9,60 +13,68 @@ import im1x3 from "../images/gallery_img/galley@1x3.jpg"
 import im1x4 from "../images/gallery_img/galley@1x4.jpg"
 import im1x5 from "../images/gallery_img/galley@1x5.jpg"
 
-const galleryArr = [im1x, im1x1, im1x2, im1x3, im1x4, im1x5]
+register();
 
-export const Gallery = ({
-    infinity = true}) => {
+export const Gallery = () => {
 
-    const [currentImage, setCurrentImage] = useState(0)
+    const swiperRef = useRef(null);
 
-    const clickLeftArrow = () => {
-        if(infinity && currentImage === 0){
-            setCurrentImage(galleryArr.length - 1)
-        }
-        else {
-            setCurrentImage(currentImage - 1)
-        }
-        
-    }
+  useEffect(() => {
+    const swiperContainer = swiperRef.current;
+    const params = {
+      navigation: true,
+      pagination: true,
 
-    const clickRightArrow = () => {
-        if(infinity && currentImage === galleryArr.length - 1) {
-            setCurrentImage(0)
-        }
-        else {
-            setCurrentImage(currentImage + 1)
-        }
-    }
+      injectStyles: [
+        `
+          .swiper-button-next {
+            padding: 0px;
+            margin-right: 0px;
+            background-color: white;
+            padding: 8px 16px;
+            border-radius: 100%;
+            color: rgba(141, 101, 21, 1);
+          }
+          .swiper-button-prev {
+            padding: 0px;
+            margin-left: 0px;
+            background-color: white;
+            padding: 8px 16px;
+            border-radius: 100%;
+            color: rgba(141, 101, 21, 1);
+          }
+          .swiper-pagination-bullet{
+            width: 12px;
+            height: 12px;
+            background-color: rgba(141, 101, 21, 1);
+          }
+      `,
+      ],
+    };
+
+    Object.assign(swiperContainer, params);
+    swiperContainer.initialize();
+  }, []);
 
     return (
         <>
-        <section className="gallery">
+
+<section className="gallery">
             <div className="gallery_container">
                 <h3 className="gallery_title">Галерея</h3>
                 <div className="icon-Line-3r"></div>
             </div>
-
-            <div className="gallery_lib">
-
-                {(infinity || currentImage > 0) && (
-                        <div className="left_arrow" onClick={clickLeftArrow}>
-                        <FontAwesomeIcon icon={faChevronLeft} />
-                        </div>
-                )}
-
-                <img className="gallery_img" src={galleryArr[currentImage]} alt="apartment plan"/>
-
-                {(infinity || currentImage !== galleryArr.length - 1) && (
-                         <div className="right_arrow" onClick={clickRightArrow}>
-                         <FontAwesomeIcon icon={faChevronRight} />
-                         </div>
-         
-                )}
-               
-            </div>
+    
+        <swiper-container class="swiper-container" ref={swiperRef} init="false">
+          <swiper-slide class="blue-slide"><img className="gallery_img" src={im1x} alt="apartment plan"/></swiper-slide>
+          <swiper-slide class="blue-slide"><img className="gallery_img" src={im1x1} alt="apartment plan"/></swiper-slide>
+          <swiper-slide class="blue-slide"><img className="gallery_img" src={im1x2} alt="apartment plan"/></swiper-slide>
+          <swiper-slide class="blue-slide"><img className="gallery_img" src={im1x3} alt="apartment plan"/></swiper-slide>
+          <swiper-slide class="blue-slide"><img className="gallery_img" src={im1x4} alt="apartment plan"/></swiper-slide>
+          <swiper-slide class="blue-slide"><img className="gallery_img" src={im1x5} alt="apartment plan"/></swiper-slide>
+        </swiper-container>
         </section>
-        
         </>
-    )
+      );
+
 }

@@ -35,26 +35,21 @@
     border-radius: 2px; 
 }
 
-.gallery_lib {
-    display: flex;
+.swiper-container {
     justify-content: center;
-align-items: center;
-}
-
-.left_arrow {
-    margin-right: 26px;
-    color: rgba(141, 101, 21, 1);
+    display: flex;
+    align-items: center;
 }
 
 .gallery_img {
-    margin: 0px;
+    margin: 0px auto;
+    padding-bottom: 45px;
     height: 220px;
+   
 }
 
-.right_arrow {
-    margin-left: 26px;
-    color: rgba(141, 101, 21, 1); 
-}
+
+
 
 
 
