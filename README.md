@@ -29,7 +29,8 @@
   - problem whith border radius in preferense_list_li//// вирішено
   - продовжити роботу з preference_text
   - розпочати стилізацію gallery desktop
+  - розпочати верстку та стилізацію секції infrastructure
   
 
 
-Time: 50:00:00
+Time: 51:00:00

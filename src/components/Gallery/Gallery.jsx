@@ -20,6 +20,13 @@ import imTab4 from "../images/gallery_img/galleryTablet@1x3.jpg"
 import imTab5 from "../images/gallery_img/galleryTablet@1x4.jpg"
 import imTab6 from "../images/gallery_img/galleryTablet@1x5.jpg"
 
+import imDesktop1 from "../images/gallery_img/galleryDesktop@1x1.jpg"
+import imDesktop2 from "../images/gallery_img/galleryDesktop@1x2.jpg"
+import imDesktop3 from "../images/gallery_img/galleryDesktop@1x3.jpg"
+import imDesktop4 from "../images/gallery_img/galleryDesktop@1x4.jpg"
+import imDesktop5 from "../images/gallery_img/galleryDesktop@1x5.jpg"
+import imDesktop6 from "../images/gallery_img/galleryDesktop@1x6.jpg"
+
 register();
 
 export const Gallery = () => {
@@ -95,6 +102,42 @@ export const Gallery = () => {
               height: 24px;
             } 
           }
+
+          @media screen and (min-width: 1440px) {
+            .swiper-button-next {
+              top: 220px;
+              color: rgba(251, 252, 252, 1);
+              background-color: rgba(206, 177, 129, 1);
+              border-radius: 50%;
+              padding: 20px 20px;
+              width: 48px;
+              height: 48px;
+            }
+
+            .swiper-button-next > svg {
+              width: 100%;
+              height: 100%;
+            }
+
+            .swiper-button-prev {
+              top: 220px;
+              color: rgba(251, 252, 252, 1);
+              background-color: rgba(206, 177, 129, 1);
+              border-radius: 50%;
+              padding: 20px 20px;
+              width: 48px;
+              height: 48px;
+            }
+  
+            .swiper-button-prev > svg {
+              width: 100%;
+              height: 100%;
+            }
+
+            .swiper-pagination-bullet{
+              display: none;
+            } 
+          }
       `,
       ],
     };
@@ -123,10 +166,10 @@ export const Gallery = () => {
               media="(max-width: 1439px)"
               type="image/jpeg"
               sizes="400px"/>
-      {/* <source srcSet={`${otonielDesktop_1x} 1x, ${otonielDesktop_2x} 2x`}
+      <source srcSet={`${imDesktop1}`}
               media="(min-width: 1440px)"
               type="image/jpeg"
-              sizes="450px"/> */}
+              sizes="500px"/>
       <img className="gallery_img" src={im1x1} alt="apartment plan"/>
       </picture>
             </swiper-slide>
@@ -140,10 +183,10 @@ export const Gallery = () => {
               media="(max-width: 1439px)"
               type="image/jpeg"
               sizes="400px"/>
-      {/* <source srcSet={`${otonielDesktop_1x} 1x, ${otonielDesktop_2x} 2x`}
+      <source srcSet={`${imDesktop2}`}
               media="(min-width: 1440px)"
               type="image/jpeg"
-              sizes="450px"/> */}
+              sizes="500px"/>
       <img className="gallery_img" src={im1x2} alt="apartment plan"/>
       </picture>
             </swiper-slide>
@@ -157,10 +200,10 @@ export const Gallery = () => {
               media="(max-width: 1439px)"
               type="image/jpeg"
               sizes="400px"/>
-      {/* <source srcSet={`${otonielDesktop_1x} 1x, ${otonielDesktop_2x} 2x`}
+      <source srcSet={`${imDesktop3}`}
               media="(min-width: 1440px)"
               type="image/jpeg"
-              sizes="450px"/> */}
+              sizes="500px"/>
       <img className="gallery_img" src={im1x3} alt="apartment plan"/>
       </picture>
             </swiper-slide>
@@ -174,10 +217,10 @@ export const Gallery = () => {
               media="(max-width: 1439px)"
               type="image/jpeg"
               sizes="400px"/>
-      {/* <source srcSet={`${otonielDesktop_1x} 1x, ${otonielDesktop_2x} 2x`}
+      <source srcSet={`${imDesktop4}`}
               media="(min-width: 1440px)"
               type="image/jpeg"
-              sizes="450px"/> */}
+              sizes="500px"/>
       <img className="gallery_img" src={im1x4} alt="apartment plan"/>
       </picture>
             </swiper-slide>
@@ -191,10 +234,10 @@ export const Gallery = () => {
               media="(max-width: 1439px)"
               type="image/jpeg"
               sizes="400px"/>
-      {/* <source srcSet={`${otonielDesktop_1x} 1x, ${otonielDesktop_2x} 2x`}
+      <source srcSet={`${imDesktop5}`}
               media="(min-width: 1440px)"
               type="image/jpeg"
-              sizes="450px"/> */}
+              sizes="500px"/>
       <img className="gallery_img" src={im1x5} alt="apartment plan"/>
       </picture>
             </swiper-slide>
@@ -208,10 +251,10 @@ export const Gallery = () => {
               media="(max-width: 1439px)"
               type="image/jpeg"
               sizes="400px"/>
-      {/* <source srcSet={`${otonielDesktop_1x} 1x, ${otonielDesktop_2x} 2x`}
+      <source srcSet={`${imDesktop6}`}
               media="(min-width: 1440px)"
               type="image/jpeg"
-              sizes="450px"/> */}
+              sizes="500px"/>
       <img className="gallery_img" src={im1x6} alt="apartment plan"/>
       </picture>
             </swiper-slide>
