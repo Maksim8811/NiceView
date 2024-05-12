@@ -146,11 +146,11 @@
 }
 
 .gallery_container {
-    margin: 0px 0px 10px 0px;
+    /* margin: 0px 0px 38px 0px; */
     padding: 0px 0px 32px 0px;
     display: block;
     justify-content: flex-end;
-    height: 36px;
+    height: 64px;
    
 }
 
@@ -165,6 +165,7 @@
 }
 
 .icon-Line-3r {
+    margin: 0px 0px 0px 0px;
     display: block; 
     content: "";
     height: 4px;

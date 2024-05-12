@@ -2,10 +2,6 @@ import "./Gallery.css"
 import { register } from "swiper/element/bundle"
 import { useEffect, useRef } from "react"
 
-
-// import { useState } from "react"
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import im1x1 from "../images/gallery_img/galley@1x.jpg"
 import im1x2 from "../images/gallery_img/galley@1x1.jpg"
 import im1x3 from "../images/gallery_img/galley@1x2.jpg"
