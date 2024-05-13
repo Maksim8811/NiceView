@@ -1,3 +1,5 @@
+import "../Preference_list/Preference_list.css"
+
 import srcMob_1_1x from "../images/preference_img/preference_mobile_1@1x.jpg"
 import srcMob_1_2x from "../images/preference_img/preference_mobile_1@2x.jpg"
 import srcMob_2_1x from "../images/preference_img/preference_mobile_2@1x.jpg"
@@ -31,7 +33,6 @@ import scrDesk_4_2x from "../images/preference_img/preference_desktop_4@2x.jpg"
 import scrDesk_5_1x from "../images/preference_img/preference_desktop_5@1x.jpg"
 import scrDesk_5_2x from "../images/preference_img/preference_desktop_5@2x.jpg"
 
-import "../Preference_list/Preference_list.css"
 
 const preferenceListInfo = [
     {id: "id-1",
