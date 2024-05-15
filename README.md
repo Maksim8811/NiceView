@@ -30,6 +30,7 @@
   - продовжити роботу з preference_text
   - розпочати стилізацію gallery desktop
   - розпочати верстку та стилізацію секції infrastructure
+  - проіменувати класи в infrastructure_gallery
   
 
 

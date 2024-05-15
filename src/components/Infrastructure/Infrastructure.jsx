@@ -59,18 +59,21 @@ const infrastrListImg = [
         infrTab1: infrTab_1_1x,
         infrTab2: infrTab_1_2x,
         infrDesk1: infrDesk_1_1x,
-        infrDesk2: infrDesk_1_2x
+        infrDesk2: infrDesk_1_2x,
+        alt: "market",
+        imgColumn: {
+            id: "id-02",
+            infrMob1: infrMob_2_1x,
+            infrMob2: infrMob_2_2x,
+            infrTab1: infrTab_2_1x,
+            infrTab2: infrTab_2_2x,
+            infrDesk1: infrDesk_2_1x,
+            infrDesk2: infrDesk_2_2x,
+            alt: "hospital"
+        },
     },
 
-    {
-        id: "id-02",
-        infrMob1: infrMob_2_1x,
-        infrMob2: infrMob_2_2x,
-        infrTab1: infrTab_2_1x,
-        infrTab2: infrTab_2_2x,
-        infrDesk1: infrDesk_2_1x,
-        infrDesk2: infrDesk_2_2x
-    },
+    
 
     {
         id: "id-03",
@@ -79,18 +82,21 @@ const infrastrListImg = [
         infrTab1: infrTab_3_1x,
         infrTab2: infrTab_3_2x,
         infrDesk1: infrDesk_3_1x,
-        infrDesk2: infrDesk_3_2x
+        infrDesk2: infrDesk_3_2x,
+        alt: "kids club",
+        imgColumn: {
+            id: "id-04",
+            infrMob1: infrMob_4_1x,
+            infrMob2: infrMob_4_2x,
+            infrTab1: infrTab_4_1x,
+            infrTab2: infrTab_4_2x,
+            infrDesk1: infrDesk_4_1x,
+            infrDesk2: infrDesk_4_2x,
+            alt: "walk",
+        },
     },
 
-    {
-        id: "id-04",
-        infrMob1: infrMob_4_1x,
-        infrMob2: infrMob_4_2x,
-        infrTab1: infrTab_4_1x,
-        infrTab2: infrTab_4_2x,
-        infrDesk1: infrDesk_4_1x,
-        infrDesk2: infrDesk_4_2x
-    },
+    
 
     {
         id: "id-05",
@@ -99,18 +105,21 @@ const infrastrListImg = [
         infrTab1: infrTab_5_1x,
         infrTab2: infrTab_5_2x,
         infrDesk1: infrDesk_5_1x,
-        infrDesk2: infrDesk_5_2x
+        infrDesk2: infrDesk_5_2x,
+        alt: "park",
+        imgColumn: {
+            id: "id-06",
+            infrMob1: infrMob_6_1x,
+            infrMob2: infrMob_6_2x,
+            infrTab1: infrTab_6_1x,
+            infrTab2: infrTab_6_2x,
+            infrDesk1: infrDesk_6_1x,
+            infrDesk2: infrDesk_6_2x,
+            alt: "square",
+        },
     },
 
-    {
-        id: "id-06",
-        infrMob1: infrMob_6_1x,
-        infrMob2: infrMob_6_2x,
-        infrTab1: infrTab_6_1x,
-        infrTab2: infrTab_6_2x,
-        infrDesk1: infrDesk_6_1x,
-        infrDesk2: infrDesk_6_2x
-    },
+    
 
     {
         id: "id-07",
@@ -119,18 +128,21 @@ const infrastrListImg = [
         infrTab1: infrTab_7_1x,
         infrTab2: infrTab_7_2x,
         infrDesk1: infrDesk_7_1x,
-        infrDesk2: infrDesk_7_2x
+        infrDesk2: infrDesk_7_2x,
+        alt: "workspace",
+        imgColumn: {
+            id: "id-08",
+            infrMob1: infrMob_8_1x,
+            infrMob2: infrMob_8_2x,
+            infrTab1: infrTab_8_1x,
+            infrTab2: infrTab_8_2x,
+            infrDesk1: infrDesk_8_1x,
+            infrDesk2: infrDesk_8_2x,
+            alt: "cafe",
+        } 
     },
 
-    {
-        id: "id-08",
-        infrMob1: infrMob_8_1x,
-        infrMob2: infrMob_8_2x,
-        infrTab1: infrTab_8_1x,
-        infrTab2: infrTab_8_2x,
-        infrDesk1: infrDesk_8_1x,
-        infrDesk2: infrDesk_8_2x
-    }
+    
 
     
 ]
@@ -148,7 +160,46 @@ return (
         <p className="infrastructure_text">*знаходяться в радіусі 1 км від ЖК</p>  
 
         <div className="infrastructure_gallery">
-            <img src={infrMob_1_1x} alt="ytty"/>
+            <ul className="infrastructure_list">
+                {infrastrListImg.map(item => {
+                    return (
+                        <li className="infrastructure_list_li">
+                            <picture>
+                    <source srcSet={`${item.infrMob1} 1x, ${item.infrMob2} 2x`}
+              media="(max-width: 767px)"
+              type="image/jpeg"
+              sizes="80px"/>
+                    <source srcSet={`${item.infrTab1} 1x, ${item.infrTab2} 2x`}
+              media="(max-width: 1439px)"
+              type="image/jpeg"
+              sizes="248px"/>
+                    <source srcSet={`${item.infrDesk1} 1x, ${item.infrDesk2} 2x`}
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+              sizes="642px"/>
+                    <img className="preference_photo" src={item.srcMob1} alt={item.alt}/>
+                    </picture>
+
+                    <picture>
+                    <source srcSet={`${item.imgColumn.infrMob1} 1x, ${item.imgColumn.infrMob2} 2x`}
+              media="(max-width: 767px)"
+              type="image/jpeg"
+              sizes="80px"/>
+                    <source srcSet={`${item.imgColumn.infrTab1} 1x, ${item.imgColumn.infrTab2} 2x`}
+              media="(max-width: 1439px)"
+              type="image/jpeg"
+              sizes="248px"/>
+                    <source srcSet={`${item.imgColumn.infrDesk1} 1x, ${item.imgColumn.infrDesk2} 2x`}
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+              sizes="642px"/>
+                    <img className="preference_photo" src={item.imgColumn.srcMob1} alt={item.alt}/>
+                    </picture>
+                  
+                        </li>
+                    )
+                })}
+            </ul>
         </div>
 
     </section>
