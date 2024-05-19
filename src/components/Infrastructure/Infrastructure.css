@@ -42,6 +42,15 @@
     color: rgba(50, 64, 82, 1);
 }
 
+.infrastructure_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 17px 0px  17px;
+}
+
+.infrastructure_list_li {
+    /* margin-right: 8px; */
+}
 
 
 /*TABLET*/
@@ -49,7 +58,8 @@
 @media screen and (min-width: 768px) {
 
     .infrastructure {
-        margin: 100px 0px 0px 0px;
+        margin: 100px auto 0px auto;
+        width: 768px;
     }
     
     .infrastructure_container {
@@ -93,7 +103,7 @@
 
 /*DESCTOP*/
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     
     .infrastructure {
         margin: 120px auto 0px auto;
@@ -142,4 +152,4 @@
         color: rgba(50, 64, 82, 1);
     }
 
-}
+} */

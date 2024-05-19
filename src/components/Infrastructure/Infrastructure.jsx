@@ -159,7 +159,6 @@ return (
         </div>
         <p className="infrastructure_text">*знаходяться в радіусі 1 км від ЖК</p>  
 
-        <div className="infrastructure_gallery">
             <ul className="infrastructure_list">
                 {infrastrListImg.map(item => {
                     return (
@@ -172,12 +171,12 @@ return (
                     <source srcSet={`${item.infrTab1} 1x, ${item.infrTab2} 2x`}
               media="(max-width: 1439px)"
               type="image/jpeg"
-              sizes="248px"/>
+              sizes="200px"/>
                     <source srcSet={`${item.infrDesk1} 1x, ${item.infrDesk2} 2x`}
               media="(min-width: 1440px)"
               type="image/jpeg"
               sizes="642px"/>
-                    <img className="preference_photo" src={item.srcMob1} alt={item.alt}/>
+                    <img className="preference_photo1" src={item.srcMob1} alt={item.alt}/>
                     </picture>
 
                     <picture>
@@ -188,19 +187,18 @@ return (
                     <source srcSet={`${item.imgColumn.infrTab1} 1x, ${item.imgColumn.infrTab2} 2x`}
               media="(max-width: 1439px)"
               type="image/jpeg"
-              sizes="248px"/>
+              sizes="200px"/>
                     <source srcSet={`${item.imgColumn.infrDesk1} 1x, ${item.imgColumn.infrDesk2} 2x`}
               media="(min-width: 1440px)"
               type="image/jpeg"
               sizes="642px"/>
-                    <img className="preference_photo" src={item.imgColumn.srcMob1} alt={item.alt}/>
+                    <img className="preference_photo2" src={item.imgColumn.srcMob1} alt={item.alt}/>
                     </picture>
                   
                         </li>
                     )
                 })}
             </ul>
-        </div>
 
     </section>
     </>
