@@ -175,7 +175,7 @@ return (
                     <source srcSet={`${item.infrDesk1} 1x, ${item.infrDesk2} 2x`}
               media="(min-width: 1440px)"
               type="image/jpeg"
-              sizes="642px"/>
+              sizes="316px"/>
                     <img className="preference_photo1" src={item.srcMob1} alt={item.alt}/>
                     </picture>
 
@@ -191,7 +191,7 @@ return (
                     <source srcSet={`${item.imgColumn.infrDesk1} 1x, ${item.imgColumn.infrDesk2} 2x`}
               media="(min-width: 1440px)"
               type="image/jpeg"
-              sizes="642px"/>
+              sizes="316px"/>
                     <img className="preference_photo2" src={item.imgColumn.srcMob1} alt={item.alt}/>
                     </picture>
                   
