@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NiceView/static/css/main.0cd3e39a.css",
-    "main.js": "/NiceView/static/js/main.04a832df.js",
+    "main.css": "/NiceView/static/css/main.62193e23.css",
+    "main.js": "/NiceView/static/js/main.2baa0756.js",
     "static/media/pexels_desktop@2x.jpg": "/NiceView/static/media/pexels_desktop@2x.71d523b34a9094742f82.jpg",
     "static/media/preference_desktop_1@2x.jpg": "/NiceView/static/media/preference_desktop_1@2x.cf2d87a4ec8936d698bd.jpg",
     "static/media/mainDesktop_@2x.jpg": "/NiceView/static/media/mainDesktop_@2x.6b37c0202d32c7f66360.jpg",
@@ -10,12 +10,14 @@
     "static/media/Nunito-VariableFont_wght.ttf": "/NiceView/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
     "static/media/otoniel_desktop@2x.jpg": "/NiceView/static/media/otoniel_desktop@2x.f72160fb5931e566ea3f.jpg",
     "static/media/preference_desktop_2@2x.jpg": "/NiceView/static/media/preference_desktop_2@2x.52f8f30b5d3dcd7ac7dc.jpg",
+    "static/media/location_img_desk@2x.jpg": "/NiceView/static/media/location_img_desk@2x.12b79f3fb3ac6ebaae03.jpg",
     "static/media/main_@2x.jpg": "/NiceView/static/media/main_@2x.2507b4dc351efc6c658f.jpg",
     "static/media/preference_desktop_3@2x.jpg": "/NiceView/static/media/preference_desktop_3@2x.293ff877837b3d44b45d.jpg",
     "static/media/preference_desktop_4@2x.jpg": "/NiceView/static/media/preference_desktop_4@2x.c2e0c7ce4b60968fa54d.jpg",
     "static/media/preference_desktop_5@2x.jpg": "/NiceView/static/media/preference_desktop_5@2x.bc4a406a45cab068a065.jpg",
     "static/media/preference_desktop_1@1x.jpg": "/NiceView/static/media/preference_desktop_1@1x.1bb568e7ab80773840e8.jpg",
     "static/media/mainTablet.jpg": "/NiceView/static/media/mainTablet.89441d3232ae56864be8.jpg",
+    "static/media/location_img_tab@2x.jpg": "/NiceView/static/media/location_img_tab@2x.cced0eab2b7679cf9c9a.jpg",
     "static/media/otoniel_tablet@2x.jpg": "/NiceView/static/media/otoniel_tablet@2x.d5136d53eedbfa88f20f.jpg",
     "static/media/infrastr_desktop@2x5.jpg": "/NiceView/static/media/infrastr_desktop@2x5.bb02d6a3bc5c3b3c30ba.jpg",
     "static/media/infrastr_desktop@2x3.jpg": "/NiceView/static/media/infrastr_desktop@2x3.704ac14094c2880ba572.jpg",
@@ -27,6 +29,7 @@
     "static/media/infrastr_desktop@2x1.jpg": "/NiceView/static/media/infrastr_desktop@2x1.4a7befd9b5b3ece808a7.jpg",
     "static/media/infrastr_desktop@2x6.jpg": "/NiceView/static/media/infrastr_desktop@2x6.e5e32cabc007397fd824.jpg",
     "static/media/infrastr_desktop@2x8.jpg": "/NiceView/static/media/infrastr_desktop@2x8.fc153e10c4d4035731f9.jpg",
+    "static/media/location_img_desk@1x.jpg": "/NiceView/static/media/location_img_desk@1x.5a995a30e150ac63be67.jpg",
     "static/media/pexels_tablet@2x.jpg": "/NiceView/static/media/pexels_tablet@2x.73c06e609a7a14be44f2.jpg",
     "static/media/infrastr_desktop@2x7.jpg": "/NiceView/static/media/infrastr_desktop@2x7.dfc8bb0e321818d682c4.jpg",
     "static/media/preference_desktop_3@1x.jpg": "/NiceView/static/media/preference_desktop_3@1x.5f759c83376230e415f9.jpg",
@@ -36,6 +39,8 @@
     "static/media/preference_desktop_5@1x.jpg": "/NiceView/static/media/preference_desktop_5@1x.49745d5c9439b7f17aa1.jpg",
     "static/media/infrastr_desktop@2x2.jpg": "/NiceView/static/media/infrastr_desktop@2x2.205f4edcd1f5ab3cb524.jpg",
     "static/media/preference_desktop_4@1x.jpg": "/NiceView/static/media/preference_desktop_4@1x.447a8c0f1f1682f7a9f5.jpg",
+    "static/media/location_img_mob@2x.jpg": "/NiceView/static/media/location_img_mob@2x.31c1586329b5a68e2c10.jpg",
+    "static/media/location_img_tab@1x.jpg": "/NiceView/static/media/location_img_tab@1x.c5cdbfcfc6b02ef4caef.jpg",
     "static/media/infrastr_tab@2x3.jpg": "/NiceView/static/media/infrastr_tab@2x3.7f25b4706430cecf92ab.jpg",
     "static/media/infrastr_tab@2x5.jpg": "/NiceView/static/media/infrastr_tab@2x5.f717a6027d6ee342f30c.jpg",
     "static/media/preference_mobile_3@2x.jpg": "/NiceView/static/media/preference_mobile_3@2x.356e4ab2efee7720a97b.jpg",
@@ -78,6 +83,7 @@
     "static/media/infrastr_desktop@1x2.jpg": "/NiceView/static/media/infrastr_desktop@1x2.4a790f9080585d1f7312.jpg",
     "static/media/pexels@2x.jpg": "/NiceView/static/media/pexels@2x.c8ae87fdf19d96015f88.jpg",
     "static/media/pexels_tablet@1x.jpg": "/NiceView/static/media/pexels_tablet@1x.78575b6b7ecbfc65b64d.jpg",
+    "static/media/location_img_mob@1x.jpg": "/NiceView/static/media/location_img_mob@1x.ff1fdd3c194c0c957b22.jpg",
     "static/media/infrastr_tab@1x3.jpg": "/NiceView/static/media/infrastr_tab@1x3.6b0213ada66f85741c8b.jpg",
     "static/media/preference_mobile_5@1x.jpg": "/NiceView/static/media/preference_mobile_5@1x.72887e3c6b7ec3241428.jpg",
     "static/media/preference_tablet_5@1x.jpg": "/NiceView/static/media/preference_tablet_5@1x.72887e3c6b7ec3241428.jpg",
@@ -90,11 +96,11 @@
     "static/media/infrastr_tab@1x4.jpg": "/NiceView/static/media/infrastr_tab@1x4.3989eb1b785314abbea0.jpg",
     "static/media/sprite.svg": "/NiceView/static/media/sprite.270fa83bf09ac33df1a87ba1dbd7cadb.svg",
     "index.html": "/NiceView/index.html",
-    "main.0cd3e39a.css.map": "/NiceView/static/css/main.0cd3e39a.css.map",
-    "main.04a832df.js.map": "/NiceView/static/js/main.04a832df.js.map"
+    "main.62193e23.css.map": "/NiceView/static/css/main.62193e23.css.map",
+    "main.2baa0756.js.map": "/NiceView/static/js/main.2baa0756.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd3e39a.css",
-    "static/js/main.04a832df.js"
+    "static/css/main.62193e23.css",
+    "static/js/main.2baa0756.js"
   ]
 }
