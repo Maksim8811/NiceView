@@ -31,10 +31,6 @@
     border-radius: 2px;
 }
 
-.location_picture {
-    
-}
-
 .location_picture_text {
     display: none;
 }
@@ -103,10 +99,6 @@
         width: 260px;
         background-color: #CEB181;
         border-radius: 2px;
-    }
-    
-    .location_picture {
-        
     }
 
     .location_picture_text {
@@ -177,7 +169,7 @@
         width: 936px;
         background-color: rgba(206, 177, 129, 1);
         border-radius: 2px;
-        margin-left: 506px;
+        right: 0px;
         position: absolute;
     }
     
