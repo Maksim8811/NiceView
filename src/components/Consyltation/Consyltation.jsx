@@ -1,6 +1,20 @@
+import { useId } from "react"
 import "../../components/Consyltation/Consyltation.css"
 
 export const Consyltation = () => {
+
+  const nameId = useId()
+  const numberId = useId()
+  const timeId = useId()
+
+  const handleSubmit = (evt) => {
+    evt.preventDefault();
+    const form = evt.target
+    const {name, number, time} = form.elements
+    console.log(name.value, number.value, time.value)
+    form.reset()
+  }
+
     return (
         <>
         <section className="consyltation">
@@ -11,30 +25,36 @@ export const Consyltation = () => {
         </div>
         <p className="consyltation_text">Поля відмічені  *  є обов’язковими для заповнення</p> 
 
-        <form>
-        <label>
+        <form className="consyltation_form" onSubmit={handleSubmit}>
+        <label className="form_label" htmlFor={nameId}>
         ПІБ*
-          <input
+          <input className="label_input"
             type="text"
+            name="name"
             placeholder="Сергій Анатолійович"
+            id={nameId}
             
           />
         </label>
 
-        <label>
+        <label className="form_label" htmlFor={numberId}>
         Номер телефону*
-          <input
-            type="text"
+          <input className="label_input"
+            type="number"
+            name="number"
             placeholder="+38 (000) 000 00 00"
+            id={numberId}
             
           />
         </label>
 
-        <label>
+        <label className="form_label" htmlFor={timeId}>
         Зручний час
-          <input
-            type="text"
+          <input className="label_input"
+            type="time"
+            name="time"
             placeholder="00:00"
+            id={timeId}
             
           />
         </label>
