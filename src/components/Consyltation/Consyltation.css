@@ -57,10 +57,13 @@
     font-size: 20px;
     line-height: 30px;
     color: rgba(22, 22, 20, 1);
+    cursor: pointer;
+    margin-left: 8px;
+    margin-bottom: 16px;
 }
 
 .label_input {
-    
+    margin-left: -8px;
     max-width: 342px;
     height: 48px;
     border-radius: 8px;
@@ -69,6 +72,27 @@
 
 .label_input::placeholder {
     padding-left: 16px;
+}
+
+.consyltation_contbtn {
+    text-align: center;
+}
+
+.consyltation_btn {
+    letter-spacing: -0.04em;
+    margin: 0px;
+    padding: 8px 70px 8px 70px;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 36px;
+    font-size: 24px;
+    background: rgba(201, 228, 234, 1);
+    min-width: 320px;
+    border-radius: 20px;
+    border: 2px solid rgba(43, 158, 231, 1);
+    cursor: pointer;
+    text-align: center;
+    color: rgba(43, 158, 231, 1);
 }
 
 /*TABLET*/

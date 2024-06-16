@@ -58,8 +58,11 @@ export const Consyltation = () => {
             
           />
         </label>
-
-        <button type="submit">Дзвінок</button>
+        
+        <div className="consyltation_contbtn">
+           <button className="consyltation_btn" type="submit">Дзвінок</button>
+        </div>
+        
       </form>
         </section>
         </>
