@@ -1,19 +1,17 @@
+import { Formik, Form, Field } from 'formik'
 import { useId } from "react"
 import "../../components/Consyltation/Consyltation.css"
 
 export const Consyltation = () => {
 
-  const nameId = useId()
-  const numberId = useId()
-  const timeId = useId()
+  const userNameFieldId = useId()
+  const phoneFieldId = useId()
+  const timeFieldId = useId()
 
-  const handleSubmit = (evt) => {
-    evt.preventDefault();
-    const form = evt.target
-    const {name, number, time} = form.elements
-    console.log(name.value, number.value, time.value)
-    form.reset()
-  }
+  const handleSubmit = (values, actions) => {
+		console.log(values);
+		actions.resetForm();
+	};
 
     return (
         <>
@@ -25,7 +23,7 @@ export const Consyltation = () => {
         </div>
         <p className="consyltation_text">Поля відмічені  *  є обов’язковими для заповнення</p> 
 
-        <form className="consyltation_form" onSubmit={handleSubmit}>
+        {/* <form className="consyltation_form" onSubmit={handleSubmit}>
         <label className="form_label" htmlFor={nameId}>
         ПІБ*
           <input className="label_input"
@@ -63,7 +61,26 @@ export const Consyltation = () => {
            <button className="consyltation_btn" type="submit">Дзвінок</button>
         </div>
         
-      </form>
+      </form> */}
+
+<Formik initialValues={{
+        username: "Сергій Анатолійович",
+        phone: "+38 (000) 000 00 00",
+        time: "00:00"
+
+}} 
+ onSubmit={handleSubmit}>
+      <Form className="consyltation_form">
+      <label className="form_label" htmlFor={userNameFieldId}>ПІБ*</label>
+      <Field className="label_input" type="text" name="username" id={userNameFieldId}/>
+      <label className="form_label" htmlFor={phoneFieldId}> Номер телефону*</label>
+			<Field className="label_input" type="phone" name="phone" id={phoneFieldId}/>
+      <label className="form_label" htmlFor={timeFieldId}>Зручний час</label>
+      <Field className="label_input" type="time" name="time" id={timeFieldId}/>
+      {/* <button className="consyltation_btn" type="submit">Дзвінок</button> */}
+			</Form>
+    </Formik>
+
         </section>
         </>
     )
